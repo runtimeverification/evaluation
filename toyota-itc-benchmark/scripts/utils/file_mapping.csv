@@ -1,0 +1,51 @@
+1,Bit shift bigger than integral type or negative,Numerical defects,bit_shift
+2,Dynamic buffer overrun,Dynamic memory defects,buffer_overrun_dynamic
+3,Dynamic buffer underrun,Dynamic memory defects,buffer_underrun_dynamic
+4,Comparison NULL with function pointer,Pointer related defects,cmp_funcadr
+5,Contradict conditions,Inappropriate code,conflicting_cond
+6,Integer precision lost because of cast,Numerical defects,data_lost
+7,Data overflow,Numerical defects,data_overflow
+8,Data underflow,Numerical defects,data_underflow
+9,Dead code,Inappropriate code,dead_code
+10,Dead lock,Concurrency defects,dead_lock
+11,Deletion of data structure sentinel,Dynamic memory defects,deletion_of_data_structure_sentinel
+12,Double free,Resource management defects,double_free
+13,Double lock,Concurrency defects,double_lock
+14,Double release,Concurrency defects,double_release
+15,Unintentional endless loop,Misc defects,endless_loop
+16,Free non dynamically allocated memory,Resource management defects,free_nondynamic_allocated_memory
+17,Free NULL  pointer,Pointer related defects,free_null_pointer
+18,Bad cast of a function pointer,Pointer related defects,func_pointer
+19,Return value of function never checked,Inappropriate code,function_return_value_unchecked
+20,Improper error handling,Inappropriate code,improper_error_handling
+21,Improper termination of block,Inappropriate code,improper_termination_of_block
+22,Useless assignment,Misc defects,insign_code
+23,Bad extern type for global variable,Misc defects,invalid_extern
+24,Invalid memory access to already freed area,Resource management defects,invalid_memory_access
+25,Assign small buffer for structure,Dynamic memory defects,littlemem_st
+26,Live lock,Concurrency defects,livelock
+27,Locked but never unlock,Concurrency defects,lock_never_unlock
+28,Memory allocation failure,Resource management defects,memory_allocation_failure
+29,Memory leakage,Resource management defects,memory_leak
+30,Non void function does not return value,Misc defects,not_return
+31,Dereferencing a NULL pointer,Pointer related defects,null_pointer
+32,Static buffer overrun,Static memory defects,overrun_st
+33,Memory copy at overlapping areas,Dynamic memory defects,ow_memcpy
+34,Power related errors,Numerical defects,pow_related_errors
+35,Incorrect pointer arithmetic,Pointer related defects,ptr_subtraction
+36,Race condition,Concurrency defects,race_condition
+37,Redundant conditions,Inappropriate code,redundant_cond
+38,Return of a pointer to a local variable,Resource management defects,return_local
+39,Integer sign lost because of unsigned cast,Numerical defects,sign_conv
+40,Long lock,Concurrency defects,sleep_lock
+41,Cross thread stack access,Stack related defects,st_cross_thread_access
+42,Stack overflow,Stack related defects,st_overflow
+43,Stack underrun,Stack related defects,st_underrun
+44,Static buffer underrun,Static memory defects,underrun_st
+45,Uninitialized memory access,Resource management defects,uninit_memory_access
+46,Uninitialized pointer,Pointer related defects,uninit_pointer
+47,Uninitialized variable,Misc defects,uninit_var
+48,Unlock without lock,Concurrency defects,unlock_without_lock
+49,Unused variable,Inappropriate code,unused_var
+50,Wrong arguments passed to a function pointer,Pointer related defects,wrong_arguments_func_pointer
+51,Division by zero,Numerical defects,zero_division

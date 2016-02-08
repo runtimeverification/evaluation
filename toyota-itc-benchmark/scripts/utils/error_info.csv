@@ -1,0 +1,51 @@
+1,Bit shift bigger than integral type or negative ,Numerical ,17,17
+2,Dynamic buffer overrun ,Dynamic memory  ,32,32
+3,Dynamic buffer underrun ,Dynamic memory  ,39,39
+4,Comparison NULL with function pointer ,Pointer related  ,2,2
+5,Contradict conditions ,Inappropriate code ,10,10
+6,Integer precision lost because of cast ,Numerical  ,19,19
+7,Data overflow ,Numerical  ,25,25
+8,Data underflow ,Numerical  ,12,12
+9,Dead code,Inappropriate code,13,13
+10,Dead lock,Concurrency,5,5
+11,Deletion of data structure sentinel,Dynamic memory,3,3
+12,Double free,Resource management,12,12
+13,Double lock,Concurrency,4,4
+14,Double release,Concurrency,6,6
+15,Unintentional endless loop,Misc,9,9
+16,Free non dynamically allocated memory,Resource management,16,16
+17,Free NULL pointer,Pointer related,14,14
+18,Bad cast of a function pointer,Pointer related,15,15
+19,Return value of function never checked,Inappropriate code,16,16
+20,Improper error handling,Inappropriate code,4,4
+21,Improper termination of block,Inappropriate code,4,4
+22,Useless assignment,Misc,1,1
+23,Bad extern type for global variable,Misc,6,6
+24,Invalid memory access to already freed area,Resource management,17,17
+25,Assign small buffer for structure,Dynamic memory,11,11
+26,Live lock,Concurrency,1,1
+27,Locked but never unlock,Concurrency,9,9
+28,Memory allocation failure,Resource management,16,16
+29,Memory leakage,Resource management,18,18
+30,Non void function does not return value,Misc,4,4
+31,Dereferencing a NULL pointer,Pointer related,17,17
+32,Static buffer overrun,Static memory,54,54
+33,Memory copy at overlapping areas,Dynamic memory,2,2
+34,Power related errors,Numerical,29,29
+35,Incorrect pointer arithmetic,Pointer related,2,2
+36,Race condition,Concurrency,8,8
+37,Redundant conditions,Inappropriate code,14,14
+38,Return of a pointer to a local variable,Resource management,2,2
+39,Integer sign lost because of unsigned cast,Numerical,19,19
+40,Long lock,Concurrency,3,3
+41,Cross thread stack access,Stack related,6,6
+42,Stack overflow,Stack related,7,7
+43,Stack underrun,Stack related,7,7
+44,Static buffer underrun,Static memory,13,13
+45,Uninitialized memory access,Resource management,15,15
+46,Uninitialized pointer,Pointer related,16,16
+47,Uninitialized variable,Misc,15,15
+48,Unlock without lock,Concurrency,8,8
+49,Unused variable,Inappropriate code,7,7
+50,Wrong arguments passed to a function pointer,Pointer related,18,18
+51,Division by zero,Numerical,16,16

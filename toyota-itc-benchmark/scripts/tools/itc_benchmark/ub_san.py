@@ -1,5 +1,4 @@
 import os
-import subprocess32 as subprocess
 from utils.logger import Logger
 from utils.make_pipeline import MakePipeline
 
@@ -61,6 +60,5 @@ class UBSan:
         self.neg_count += 1
 
     def cleanup(self):
-
-        Tool.cleanup(self)
+        self.pipeline.clean_benchmark()
         self.logger.close_log()

@@ -46,3 +46,7 @@ class MakePipeline:
                     finally:
                         process.kill()
             print benchmark
+
+    def clean_benchmark(self):
+        os.chdir(self.benchmark_path)
+        subprocess.check_call(["make", "clean"])

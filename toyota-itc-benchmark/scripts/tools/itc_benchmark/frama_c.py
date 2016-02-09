@@ -1,9 +1,11 @@
 import os
 import subprocess32 as subprocess
 import utils.external_info
+import shutil
 from utils.external_info import Info
 from utils.logger import Logger
 
+relevant_dirs = ["01.w_Defects", "02.wo_Defects"]
 
 class FramaC:
 
@@ -30,7 +32,6 @@ class FramaC:
         return ["frama-c", "-val", "-machdep", "gcc_x86_64", bootstrap_file_path]
 
     def run(self):
-        relevant_dirs = ["01.w_Defects", "02.wo_Defects"]
         output_dict = {}
 
         for cur_dir in relevant_dirs:
@@ -87,13 +88,10 @@ class FramaC:
         self.name = "framac"
         self.logger = Logger(log_path, self.name)
         self.fp_set = set()
-        self.tp_set = set()
 
-    def analyze(self):
-        Tool.analyze(self)
 
     def cleanup(self):
-        Tool.cleanup(self)
+        map(lambda x: shutil.rmtree(os.path.join(os.path.join(self.benchmark_path, x), "framac_dir")), relevant_dirs)
         self.logger.close_log()
 
     def get_tp_set(self):

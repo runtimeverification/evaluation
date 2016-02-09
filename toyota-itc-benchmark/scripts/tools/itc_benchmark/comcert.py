@@ -3,7 +3,10 @@ import subprocess32 as subprocess
 import utils.external_info
 from utils.external_info import Info
 import utils.logger
+import shutil
 
+bootstrap_dir = "bootstrap_dir"
+relevant_dirs = ["01.w_Defects", "02.wo_Defects"]
 
 class Compcert:
     def get_compcert_command(self, cur_dir, file_prefix, temp_dir_name, vflag):
@@ -27,7 +30,6 @@ class Compcert:
         return True
 
     def run(self):
-        relevant_dirs = ["01.w_Defects", "02.wo_Defects"]
         output_dict = {}
         ignore_list = self.info.get_ignore_list()
         for cur_dir in relevant_dirs:
@@ -46,7 +48,7 @@ class Compcert:
                         continue
                     output_dict[i]["count"] += 1
                     vflag = str('%03d' % j)
-                    compcert_command = self.get_compcert_command(cur_dir, file_prefix, "bootstrap_dir", vflag)
+                    compcert_command = self.get_compcert_command(cur_dir, file_prefix, bootstrap_dir, vflag)
                     print " ".join(compcert_command)
                     verdict = "NEG"
                     try:
@@ -88,4 +90,5 @@ class Compcert:
         self.fp_set = set([])
 
     def cleanup(self):
+        map(lambda x: shutil.rmtree(os.path.join(os.path.join(self.benchmark_path, x), bootstrap_dir)), relevant_dirs)
         self.logger.close_log()

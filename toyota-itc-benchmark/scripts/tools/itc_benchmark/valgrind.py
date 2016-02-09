@@ -1,5 +1,4 @@
 import os
-import subprocess32 as subprocess
 from utils.logger import Logger
 from utils.make_pipeline import MakePipeline
 
@@ -7,13 +6,6 @@ class Valgrind:
     def get_name(self):
         return self.name
 
-    def build(self):
-        if "Makefile" in os.listdir(os.getcwd()):
-            subprocess.check_call(["make", "clean"])
-        subprocess.check_call(["autoreconf", "--install"])
-        subprocess.check_call(["automake"])
-        subprocess.check_call(["./configure", "CFLAGS=-g"])
-        subprocess.check_call(["make"], stderr=subprocess.STDOUT)
 
     def __init__(self, benchmark_path, log_file_path):
         self.pipeline = MakePipeline(benchmark_path)
@@ -65,4 +57,5 @@ class Valgrind:
         self.logger.log_output("", i, cur_dir, j, "NEG")
 
     def cleanup(self):
+        self.pipeline.clean_benchmark()
         self.logger.close_log()

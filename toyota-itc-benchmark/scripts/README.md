@@ -7,7 +7,7 @@
 	* `pip install subprocess32`
 	* `pip install  pyyaml`
 
-2. Create a Yaml config file
+2. Create a Yaml config file following the following format:
 	```
 	benchmark_path: <Location of the Toyota ITC benchmark directory>
 
@@ -16,6 +16,6 @@
 	log: <Path to the directory where you want the log files to be stored>
 	```
 
-3. run `python benchmark.py <Path to Yaml File>`
+3. Run `python benchmark.py <Path to Yaml File>`
 
 

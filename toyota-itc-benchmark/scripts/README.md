@@ -7,7 +7,7 @@
 	* `pip install subprocess32`
 	* `pip install  pyyaml`
 
-2. Create a Yaml config file following the following format:
+2. Create a Yaml config file following the format:
 	```
 	benchmark_path: <Location of the Toyota ITC benchmark directory>
 

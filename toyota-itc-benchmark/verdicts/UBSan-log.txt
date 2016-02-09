@@ -1,0 +1,8449 @@
+UBSan being tested on 01.w_Defects 1 1
+
+bit_shift.c:21:10: runtime error: shift exponent 32 is too large for 32-bit type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 1 2
+
+bit_shift.c:33:10: runtime error: shift exponent 64 is too large for 64-bit type 'long' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 1 3
+
+bit_shift.c:45:10: runtime error: shift exponent 32 is too large for 32-bit type 'unsigned int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 1 4
+
+bit_shift.c:57:10: runtime error: shift exponent 64 is too large for 64-bit type 'unsigned long' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 1 5
+
+bit_shift.c:69:10: runtime error: shift exponent -1 is negative 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 1 6
+
+bit_shift.c:81:10: runtime error: shift exponent 32 is too large for 32-bit type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 1 7
+
+bit_shift.c:93:10: runtime error: shift exponent -1 is negative 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 1 8
+
+bit_shift.c:106:10: runtime error: shift exponent 32 is too large for 32-bit type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 1 9
+
+bit_shift.c:120:10: runtime error: shift exponent 1804289383 is too large for 32-bit type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 1 10
+
+bit_shift.c:133:10: runtime error: shift exponent 32 is too large for 32-bit type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 1 11
+
+bit_shift.c:146:10: runtime error: shift exponent 32 is too large for 32-bit type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 1 12
+
+bit_shift.c:163:10: runtime error: shift exponent 32 is too large for 32-bit type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 1 13
+
+bit_shift.c:175:10: runtime error: shift exponent 32 is too large for 32-bit type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 1 14
+
+bit_shift.c:193:10: runtime error: shift exponent 32 is too large for 32-bit type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 1 15
+
+bit_shift.c:208:10: runtime error: shift exponent 32 is too large for 32-bit type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 1 16
+
+bit_shift.c:225:10: runtime error: shift exponent 32 is too large for 32-bit type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 1 17
+
+bit_shift.c:236:10: runtime error: shift exponent 32 is too large for 32-bit type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 2 1
+
+vflag_file = 2 vflag_func = 1 vflag_copy =2001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 2
+
+vflag_file = 2 vflag_func = 2 vflag_copy =2002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 3
+
+vflag_file = 2 vflag_func = 3 vflag_copy =2003  
+0Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 4
+
+vflag_file = 2 vflag_func = 4 vflag_copy =2004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 5
+
+vflag_file = 2 vflag_func = 5 vflag_copy =2005  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 6
+
+vflag_file = 2 vflag_func = 6 vflag_copy =2006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 7
+
+vflag_file = 2 vflag_func = 7 vflag_copy =2007  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 8
+
+vflag_file = 2 vflag_func = 8 vflag_copy =2008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 9
+
+vflag_file = 2 vflag_func = 9 vflag_copy =2009  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 10
+
+vflag_file = 2 vflag_func = 10 vflag_copy =2010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 11
+
+vflag_file = 2 vflag_func = 11 vflag_copy =2011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 12
+
+vflag_file = 2 vflag_func = 12 vflag_copy =2012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 13
+
+vflag_file = 2 vflag_func = 13 vflag_copy =2013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 14
+
+vflag_file = 2 vflag_func = 14 vflag_copy =2014  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 15
+
+vflag_file = 2 vflag_func = 15 vflag_copy =2015  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 16
+
+vflag_file = 2 vflag_func = 16 vflag_copy =2016  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 17
+
+vflag_file = 2 vflag_func = 17 vflag_copy =2017  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 18
+
+buffer_overrun_dynamic.c:332:12: runtime error: index 4 out of bounds for type 'int [4]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 2 19
+
+vflag_file = 2 vflag_func = 19 vflag_copy =2019  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 20
+
+vflag_file = 2 vflag_func = 20 vflag_copy =2020  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 21
+
+vflag_file = 2 vflag_func = 21 vflag_copy =2021  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 22
+
+vflag_file = 2 vflag_func = 22 vflag_copy =2022  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 23
+
+vflag_file = 2 vflag_func = 23 vflag_copy =2023  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 24
+
+vflag_file = 2 vflag_func = 24 vflag_copy =2024  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 25
+
+vflag_file = 2 vflag_func = 25 vflag_copy =2025  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 26
+
+vflag_file = 2 vflag_func = 26 vflag_copy =2026  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 27
+
+vflag_file = 2 vflag_func = 27 vflag_copy =2027  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 28
+
+vflag_file = 2 vflag_func = 28 vflag_copy =2028  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 29
+
+vflag_file = 2 vflag_func = 29 vflag_copy =2029  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 30
+
+vflag_file = 2 vflag_func = 30 vflag_copy =2030  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 31
+
+vflag_file = 2 vflag_func = 31 vflag_copy =2031  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 2 32
+
+buffer_overrun_dynamic.c:606:7: runtime error: index 10 out of bounds for type 'char [10]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 3 1
+
+vflag_file = 3 vflag_func = 1 vflag_copy =3001  
+print bufferundr 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 2
+
+vflag_file = 3 vflag_func = 2 vflag_copy =3002  
+underrun2Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 3
+
+vflag_file = 3 vflag_func = 3 vflag_copy =3003  
+0Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 4
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 5
+
+vflag_file = 3 vflag_func = 5 vflag_copy =3005  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 6
+
+vflag_file = 3 vflag_func = 6 vflag_copy =3006  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 7
+
+vflag_file = 3 vflag_func = 7 vflag_copy =3007  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 8
+
+buffer_underrun_dynamic.c:154:4: runtime error: store to misaligned address 0x000000000031 for type 'int', which requires 4 byte alignment 
+0x000000000031: note: pointer points here 
+<memory cannot be printed> 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 3 9
+
+buffer_underrun_dynamic.c:177:7: runtime error: index -3 out of bounds for type 'int **[5]' 
+buffer_underrun_dynamic.c:177:6: runtime error: load of misaligned address 0x0001fffffffe for type 'int *', which requires 8 byte alignment 
+0x0001fffffffe: note: pointer points here 
+<memory cannot be printed> 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 3 10
+
+vflag_file = 3 vflag_func = 10 vflag_copy =3010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 11
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 12
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 13
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 14
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 15
+
+vflag_file = 3 vflag_func = 15 vflag_copy =3015  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 16
+
+vflag_file = 3 vflag_func = 16 vflag_copy =3016  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 17
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 18
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 19
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 20
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 21
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 22
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 23
+
+vflag_file = 3 vflag_func = 23 vflag_copy =3023  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 24
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 25
+
+vflag_file = 3 vflag_func = 25 vflag_copy =3025  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 26
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 27
+
+vflag_file = 3 vflag_func = 27 vflag_copy =3027  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 28
+
+vflag_file = 3 vflag_func = 28 vflag_copy =3028  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 29
+
+vflag_file = 3 vflag_func = 29 vflag_copy =3029  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 30
+
+vflag_file = 3 vflag_func = 30 vflag_copy =3030  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 31
+
+vflag_file = 3 vflag_func = 31 vflag_copy =3031  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 32
+
+buffer_underrun_dynamic.c:605:6: runtime error: index -1 out of bounds for type 'char [10]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 3 33
+
+vflag_file = 3 vflag_func = 33 vflag_copy =3033  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 34
+
+vflag_file = 3 vflag_func = 34 vflag_copy =3034  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 35
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 36
+
+vflag_file = 3 vflag_func = 36 vflag_copy =3036  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 37
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 3 38
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 4 1
+
+vflag_file = 4 vflag_func = 1 vflag_copy =4001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 4 2
+
+vflag_file = 4 vflag_func = 2 vflag_copy =4002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 5 1
+
+vflag_file = 5 vflag_func = 1 vflag_copy =5001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 5 2
+
+vflag_file = 5 vflag_func = 2 vflag_copy =5002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 5 3
+
+vflag_file = 5 vflag_func = 3 vflag_copy =5003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 5 4
+
+vflag_file = 5 vflag_func = 4 vflag_copy =5004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 5 5
+
+vflag_file = 5 vflag_func = 5 vflag_copy =5005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 5 6
+
+vflag_file = 5 vflag_func = 6 vflag_copy =5006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 5 7
+
+vflag_file = 5 vflag_func = 7 vflag_copy =5007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 5 8
+
+vflag_file = 5 vflag_func = 8 vflag_copy =5008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 5 9
+
+vflag_file = 5 vflag_func = 9 vflag_copy =5009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 5 10
+
+vflag_file = 5 vflag_func = 10 vflag_copy =5010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 6 1
+
+vflag_file = 6 vflag_func = 1 vflag_copy =6001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 6 2
+
+vflag_file = 6 vflag_func = 2 vflag_copy =6002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 6 3
+
+vflag_file = 6 vflag_func = 3 vflag_copy =6003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 6 4
+
+: runtime error: value 2.14748e+09 is outside the range of representable values of type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 6 5
+
+: runtime error: value 9.22337e+18 is outside the range of representable values of type 'long' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 6 6
+
+: runtime error: value 3.40282e+38 is outside the range of representable values of type 'float' 
+: runtime error: value inf is outside the range of representable values of type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 6 7
+
+vflag_file = 6 vflag_func = 7 vflag_copy =6007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 6 8
+
+vflag_file = 6 vflag_func = 8 vflag_copy =6008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 6 9
+
+vflag_file = 6 vflag_func = 9 vflag_copy =6009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 6 10
+
+vflag_file = 6 vflag_func = 10 vflag_copy =6010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 6 11
+
+vflag_file = 6 vflag_func = 11 vflag_copy =6011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 6 12
+
+vflag_file = 6 vflag_func = 12 vflag_copy =6012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 6 13
+
+vflag_file = 6 vflag_func = 13 vflag_copy =6013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 6 14
+
+vflag_file = 6 vflag_func = 14 vflag_copy =6014  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 6 15
+
+vflag_file = 6 vflag_func = 15 vflag_copy =6015  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 6 16
+
+vflag_file = 6 vflag_func = 16 vflag_copy =6016  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 6 17
+
+vflag_file = 6 vflag_func = 17 vflag_copy =6017  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 6 18
+
+vflag_file = 6 vflag_func = 18 vflag_copy =6018  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 6 19
+
+vflag_file = 6 vflag_func = 19 vflag_copy =6019  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 7 1
+
+vflag_file = 7 vflag_func = 1 vflag_copy =7001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 7 2
+
+vflag_file = 7 vflag_func = 2 vflag_copy =7002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 7 3
+
+data_overflow.c:48:12: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 7 4
+
+data_overflow.c:60:12: runtime error: signed integer overflow: 9223372036854775807 + 1 cannot be represented in type 'long' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 7 5
+
+vflag_file = 7 vflag_func = 5 vflag_copy =7005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 7 6
+
+vflag_file = 7 vflag_func = 6 vflag_copy =7006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 7 7
+
+data_overflow.c:96:12: runtime error: unsigned integer overflow: 4294967295 + 1 cannot be represented in type 'unsigned int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 7 8
+
+data_overflow.c:108:12: runtime error: unsigned integer overflow: 18446744073709551615 + 1 cannot be represented in type 'unsigned long' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 7 9
+
+vflag_file = 7 vflag_func = 9 vflag_copy =7009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 7 10
+
+vflag_file = 7 vflag_func = 10 vflag_copy =7010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 7 11
+
+data_overflow.c:152:6: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 7 12
+
+data_overflow.c:165:12: runtime error: signed integer overflow: 2147483520 + 128 cannot be represented in type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 7 13
+
+data_overflow.c:177:12: runtime error: signed integer overflow: 1073741824 * 2 cannot be represented in type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 7 14
+
+data_overflow.c:190:12: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 7 15
+
+data_overflow.c:204:12: runtime error: signed integer overflow: 2147483647 + 1804289383 cannot be represented in type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 7 16
+
+data_overflow.c:216:18: runtime error: signed integer overflow: 2147483645 + 3 cannot be represented in type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 7 17
+
+data_overflow.c:228:20: runtime error: signed integer overflow: 2147395600 + 88048 cannot be represented in type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 7 18
+
+data_overflow.c:245:12: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 7 19
+
+data_overflow.c:257:12: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 7 20
+
+data_overflow.c:275:12: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 7 21
+
+data_overflow.c:290:12: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 7 22
+
+data_overflow.c:307:12: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 7 23
+
+data_overflow.c:318:19: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 7 24
+
+: runtime error: value inf is outside the range of representable values of type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 7 25
+
+: runtime error: value inf is outside the range of representable values of type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 8 1
+
+data_underflow.c:20:12: runtime error: signed integer overflow: -2147483647 - 2 cannot be represented in type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 8 2
+
+data_underflow.c:32:12: runtime error: unsigned integer overflow: 0 - 1 cannot be represented in type 'unsigned int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 8 3
+
+data_underflow.c:45:6: runtime error: signed integer overflow: -2147483648 - 1 cannot be represented in type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 8 4
+
+data_underflow.c:58:12: runtime error: signed integer overflow: -2147483521 - 128 cannot be represented in type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 8 5
+
+data_underflow.c:70:12: runtime error: signed integer overflow: -1073741825 * 2 cannot be represented in type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 8 6
+
+data_underflow.c:81:22: runtime error: signed integer overflow: -2147483647 - 2 cannot be represented in type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 8 7
+
+vflag_file = 8 vflag_func = 7 vflag_copy =8007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 8 8
+
+vflag_file = 8 vflag_func = 8 vflag_copy =8008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 8 9
+
+vflag_file = 8 vflag_func = 9 vflag_copy =8009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 8 10
+
+data_underflow.c:140:12: runtime error: signed integer overflow: -2147483647 - 2 cannot be represented in type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 8 11
+
+data_underflow.c:152:12: runtime error: signed integer overflow: -2147483647 - 2 cannot be represented in type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 8 12
+
+data_underflow.c:170:12: runtime error: signed integer overflow: -2147483647 + -2 cannot be represented in type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 9 1
+
+vflag_file = 9 vflag_func = 1 vflag_copy =9001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 9 2
+
+vflag_file = 9 vflag_func = 2 vflag_copy =9002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 9 3
+
+vflag_file = 9 vflag_func = 3 vflag_copy =9003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 9 4
+
+vflag_file = 9 vflag_func = 4 vflag_copy =9004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 9 5
+
+vflag_file = 9 vflag_func = 5 vflag_copy =9005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 9 6
+
+vflag_file = 9 vflag_func = 6 vflag_copy =9006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 9 7
+
+vflag_file = 9 vflag_func = 7 vflag_copy =9007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 9 8
+
+vflag_file = 9 vflag_func = 8 vflag_copy =9008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 9 9
+
+vflag_file = 9 vflag_func = 9 vflag_copy =9009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 9 10
+
+vflag_file = 9 vflag_func = 10 vflag_copy =9010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 9 11
+
+vflag_file = 9 vflag_func = 11 vflag_copy =9011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 9 12
+
+vflag_file = 9 vflag_func = 12 vflag_copy =9012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 9 13
+
+vflag_file = 9 vflag_func = 13 vflag_copy =9013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 10 1
+
+vflag_file = 10 vflag_func = 1 vflag_copy =10001  
+Task1! dead_lock= 21  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 10 2
+
+vflag_file = 10 vflag_func = 2 vflag_copy =10002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 10 3
+
+vflag_file = 10 vflag_func = 3 vflag_copy =10003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 10 4
+
+vflag_file = 10 vflag_func = 4 vflag_copy =10004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 10 5
+
+vflag_file = 10 vflag_func = 5 vflag_copy =10005  
+dead lockPrinted from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 11 1
+
+vflag_file = 11 vflag_func = 1 vflag_copy =11001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 11 2
+
+vflag_file = 11 vflag_func = 2 vflag_copy =11002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 11 3
+
+vflag_file = 11 vflag_func = 3 vflag_copy =11003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 12 1
+
+vflag_file = 12 vflag_func = 1 vflag_copy =12001  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 12 2
+
+vflag_file = 12 vflag_func = 2 vflag_copy =12002  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 12 3
+
+vflag_file = 12 vflag_func = 3 vflag_copy =12003  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 12 4
+
+vflag_file = 12 vflag_func = 4 vflag_copy =12004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 12 5
+
+vflag_file = 12 vflag_func = 5 vflag_copy =12005  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 12 6
+
+vflag_file = 12 vflag_func = 6 vflag_copy =12006  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 12 7
+
+vflag_file = 12 vflag_func = 7 vflag_copy =12007  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 12 8
+
+vflag_file = 12 vflag_func = 8 vflag_copy =12008  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 12 9
+
+vflag_file = 12 vflag_func = 9 vflag_copy =12009  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 12 10
+
+vflag_file = 12 vflag_func = 10 vflag_copy =12010  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 12 11
+
+vflag_file = 12 vflag_func = 11 vflag_copy =12011  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 12 12
+
+vflag_file = 12 vflag_func = 12 vflag_copy =12012  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 13 1
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 13 2
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 13 3
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 13 4
+
+vflag_file = 13 vflag_func = 4 vflag_copy =13004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 14 1
+
+vflag_file = 14 vflag_func = 1 vflag_copy =14001  
+Double releasePrinted from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 14 2
+
+vflag_file = 14 vflag_func = 2 vflag_copy =14002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 14 3
+
+vflag_file = 14 vflag_func = 3 vflag_copy =14003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 14 4
+
+vflag_file = 14 vflag_func = 4 vflag_copy =14004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 14 5
+
+vflag_file = 14 vflag_func = 5 vflag_copy =14005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 14 6
+
+vflag_file = 14 vflag_func = 6 vflag_copy =14006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 15 1
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 15 2
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 15 3
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 15 4
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 15 5
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 15 6
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 15 7
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 15 8
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 15 9
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 16 1
+
+vflag_file = 16 vflag_func = 1 vflag_copy =16001  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 16 2
+
+vflag_file = 16 vflag_func = 2 vflag_copy =16002  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 16 3
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 16 4
+
+vflag_file = 16 vflag_func = 4 vflag_copy =16004  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 16 5
+
+vflag_file = 16 vflag_func = 5 vflag_copy =16005  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 16 6
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 16 7
+
+vflag_file = 16 vflag_func = 7 vflag_copy =16007  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 16 8
+
+vflag_file = 16 vflag_func = 8 vflag_copy =16008  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 16 9
+
+vflag_file = 16 vflag_func = 9 vflag_copy =16009  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 16 10
+
+vflag_file = 16 vflag_func = 10 vflag_copy =16010  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 16 11
+
+vflag_file = 16 vflag_func = 11 vflag_copy =16011  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 16 12
+
+vflag_file = 16 vflag_func = 12 vflag_copy =16012  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 16 13
+
+vflag_file = 16 vflag_func = 13 vflag_copy =16013  
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 16 14
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 16 15
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 16 16
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 17 1
+
+vflag_file = 17 vflag_func = 1 vflag_copy =17001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 17 2
+
+vflag_file = 17 vflag_func = 2 vflag_copy =17002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 17 3
+
+vflag_file = 17 vflag_func = 3 vflag_copy =17003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 17 4
+
+vflag_file = 17 vflag_func = 4 vflag_copy =17004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 17 5
+
+free_null_pointer.c:109:9: runtime error: null pointer passed as argument 1, which is declared to never be null 
+: note: nonnull attribute specified here 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 17 6
+
+free_null_pointer.c:146:13: runtime error: null pointer passed as argument 1, which is declared to never be null 
+: note: nonnull attribute specified here 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 17 8
+
+free_null_pointer.c:242:9: runtime error: null pointer passed as argument 1, which is declared to never be null 
+: note: nonnull attribute specified here 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 17 11
+
+free_null_pointer.c:422:11: runtime error: member access within misaligned address 0xffffffffffffffff for type 'free_null_pointer_011_u_001', which requires 4 byte alignment 
+0xffffffffffffffff: note: pointer points here 
+<memory cannot be printed> 
+free_null_pointer.c:422:11: runtime error: load of misaligned address 0xffffffffffffffff for type 'int', which requires 4 byte alignment 
+0xffffffffffffffff: note: pointer points here 
+<memory cannot be printed> 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 18 1
+
+vflag_file = 18 vflag_func = 1 vflag_copy =18001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 18 2
+
+vflag_file = 18 vflag_func = 2 vflag_copy =18002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 18 3
+
+vflag_file = 18 vflag_func = 3 vflag_copy =18003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 18 4
+
+vflag_file = 18 vflag_func = 4 vflag_copy =18004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 18 5
+
+func_pointer.c:177:8: runtime error: load of null pointer of type 'long *' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 18 6
+
+vflag_file = 18 vflag_func = 6 vflag_copy =18006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 18 7
+
+vflag_file = 18 vflag_func = 7 vflag_copy =18007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 18 8
+
+func_pointer.c:309:19: runtime error: load of misaligned address 0x4131999a424a6666 for type 'float', which requires 4 byte alignment 
+0x4131999a424a6666: note: pointer points here 
+<memory cannot be printed> 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 18 9
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 18 10
+
+vflag_file = 18 vflag_func = 10 vflag_copy =18010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 18 11
+
+vflag_file = 18 vflag_func = 11 vflag_copy =18011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 18 12
+
+vflag_file = 18 vflag_func = 12 vflag_copy =18012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 18 13
+
+vflag_file = 18 vflag_func = 13 vflag_copy =18013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 18 14
+
+vflag_file = 18 vflag_func = 14 vflag_copy =18014  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 18 15
+
+vflag_file = 18 vflag_func = 15 vflag_copy =18015  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 19 1
+
+vflag_file = 19 vflag_func = 1 vflag_copy =19001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 19 2
+
+vflag_file = 19 vflag_func = 2 vflag_copy =19002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 19 3
+
+vflag_file = 19 vflag_func = 3 vflag_copy =19003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 19 4
+
+vflag_file = 19 vflag_func = 4 vflag_copy =19004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 19 5
+
+vflag_file = 19 vflag_func = 5 vflag_copy =19005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 19 6
+
+vflag_file = 19 vflag_func = 6 vflag_copy =19006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 19 7
+
+vflag_file = 19 vflag_func = 7 vflag_copy =19007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 19 8
+
+vflag_file = 19 vflag_func = 8 vflag_copy =19008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 19 9
+
+vflag_file = 19 vflag_func = 9 vflag_copy =19009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 19 10
+
+vflag_file = 19 vflag_func = 10 vflag_copy =19010  
+TEST STRING 
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 19 11
+
+vflag_file = 19 vflag_func = 11 vflag_copy =19011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 19 12
+
+vflag_file = 19 vflag_func = 12 vflag_copy =19012  
+APrinted from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 19 13
+
+vflag_file = 19 vflag_func = 13 vflag_copy =19013  
+STRING#Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 19 14
+
+vflag_file = 19 vflag_func = 14 vflag_copy =19014  
+APrinted from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 19 15
+
+vflag_file = 19 vflag_func = 15 vflag_copy =19015  
+TEST 
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 19 16
+
+vflag_file = 19 vflag_func = 16 vflag_copy =19016  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 21 1
+
+vflag_file = 21 vflag_func = 1 vflag_copy =21001  
+00Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 21 2
+
+vflag_file = 21 vflag_func = 2 vflag_copy =21002  
+00Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 21 3
+
+vflag_file = 21 vflag_func = 3 vflag_copy =21003  
+100Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 21 4
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 22 1
+
+vflag_file = 22 vflag_func = 1 vflag_copy =22001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 23 1
+
+invalid_extern.c:31:2: runtime error: store to misaligned address 0x00020000000d for type 'int', which requires 4 byte alignment 
+0x00020000000d: note: pointer points here 
+<memory cannot be printed> 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 23 2
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 23 3
+
+vflag_file = 23 vflag_func = 3 vflag_copy =23003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 23 4
+
+vflag_file = 23 vflag_func = 4 vflag_copy =23004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 23 5
+
+vflag_file = 23 vflag_func = 5 vflag_copy =23005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 23 6
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 24 1
+
+vflag_file = 24 vflag_func = 1 vflag_copy =24001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 24 2
+
+vflag_file = 24 vflag_func = 2 vflag_copy =24002  
+5.500000Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 24 3
+
+vflag_file = 24 vflag_func = 3 vflag_copy =24003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 24 4
+
+vflag_file = 24 vflag_func = 4 vflag_copy =24004  
+String= Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 24 5
+
+vflag_file = 24 vflag_func = 5 vflag_copy =24005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 24 6
+
+vflag_file = 24 vflag_func = 6 vflag_copy =24006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 24 7
+
+invalid_memory_access.c:210:9: runtime error: null pointer passed as argument 1, which is declared to never be null 
+: note: nonnull attribute specified here 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 24 8
+
+vflag_file = 24 vflag_func = 8 vflag_copy =24008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 24 9
+
+invalid_memory_access.c:270:9: runtime error: member access within null pointer of type 'invalid_memory_access_009_s_001' 
+invalid_memory_access.c:270:9: runtime error: load of null pointer of type 'int *' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 24 10
+
+vflag_file = 24 vflag_func = 10 vflag_copy =24010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 24 11
+
+vflag_file = 24 vflag_func = 11 vflag_copy =24011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 24 12
+
+vflag_file = 24 vflag_func = 12 vflag_copy =24012  
+10Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 24 13
+
+vflag_file = 24 vflag_func = 13 vflag_copy =24013  
+0Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 24 14
+
+vflag_file = 24 vflag_func = 14 vflag_copy =24014  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 24 15
+
+vflag_file = 24 vflag_func = 15 vflag_copy =24015  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 24 16
+
+invalid_memory_access.c:571:11: runtime error: null pointer passed as argument 2, which is declared to never be null 
+: note: nonnull attribute specified here 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 24 17
+
+vflag_file = 24 vflag_func = 17 vflag_copy =24017  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 25 1
+
+littlemem_st.c:36:11: runtime error: member access within misaligned address 0x7ffde08b2396 for type 'littlemem_st_001_s_001', which requires 4 byte alignment 
+0x7ffde08b2396: note: pointer points here 
+ 46 00 00 00 01 01  01 01 01 01 01 01 01 01  b0 23 8b e0 fd 7f 00 00  1b d8 45 00 00 00 00 00  40 24 
+             ^  
+littlemem_st.c:36:11: runtime error: load of misaligned address 0x7ffde08b239e for type 'int', which requires 4 byte alignment 
+0x7ffde08b239e: note: pointer points here 
+ 01 01 01 01 01 01  b0 23 8b e0 fd 7f 00 00  1b d8 45 00 00 00 00 00  40 24 8b e0 fd 7f 00 00  bc df 
+             ^  
+littlemem_st.c:37:23: runtime error: member access within misaligned address 0x7ffde08b2396 for type 'littlemem_st_001_s_001', which requires 4 byte alignment 
+0x7ffde08b2396: note: pointer points here 
+ 46 00 00 00 01 01  01 01 01 01 01 01 01 01  b0 23 8b e0 fd 7f 00 00  1b d8 45 00 00 00 00 00  40 24 
+             ^  
+littlemem_st.c:37:23: runtime error: load of misaligned address 0x7ffde08b239e for type 'int', which requires 4 byte alignment 
+0x7ffde08b239e: note: pointer points here 
+ 01 01 01 01 01 01  b0 23 8b e0 fd 7f 00 00  1b d8 45 00 00 00 00 00  40 24 8b e0 fd 7f 00 00  bc df 
+             ^  
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 25 2
+
+littlemem_st.c:55:5: runtime error: member access within misaligned address 0x7ffffecd0956 for type 'littlemem_st_002_s_001', which requires 4 byte alignment 
+0x7ffffecd0956: note: pointer points here 
+ 46 00 00 00 00 00  01 c0 09 b9 9c 7f 00 00  70 09 cd fe ff 7f 00 00  42 d8 45 00 00 00 00 00  00 0a 
+             ^  
+littlemem_st.c:55:5: runtime error: store to misaligned address 0x7ffffecd095e for type 'int', which requires 4 byte alignment 
+0x7ffffecd095e: note: pointer points here 
+ 09 b9 9c 7f 00 00  70 09 cd fe ff 7f 00 00  42 d8 45 00 00 00 00 00  00 0a cd fe ff 7f 00 00  bc df 
+             ^  
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 25 3
+
+littlemem_st.c:73:5: runtime error: member access within misaligned address 0x7fffc341c9fe for type 'littlemem_st_003_uni_001', which requires 4 byte alignment 
+0x7fffc341c9fe: note: pointer points here 
+ ce 5c 4f 7f 00 00  10 ca 41 c3 ff 7f 00 00  69 d8 45 00 00 00 00 00  a0 ca 41 c3 ff 7f 00 00  bc df 
+             ^  
+littlemem_st.c:73:5: runtime error: store to misaligned address 0x7fffc341c9fe for type 'int', which requires 4 byte alignment 
+0x7fffc341c9fe: note: pointer points here 
+ ce 5c 4f 7f 00 00  10 ca 41 c3 ff 7f 00 00  69 d8 45 00 00 00 00 00  a0 ca 41 c3 ff 7f 00 00  bc df 
+             ^  
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 25 4
+
+littlemem_st.c:92:34: runtime error: member access within misaligned address 0x7ffd67201066 for type 'littlemem_st_004_s_001', which requires 4 byte alignment 
+0x7ffd67201066: note: pointer points here 
+ 46 00 00 00 00 00  01 20 13 de 1a 7f 00 00  80 10 20 67 fd 7f 00 00  90 d8 45 00 00 00 00 00  10 11 
+             ^  
+littlemem_st.c:92:34: runtime error: store to misaligned address 0x7ffd6720106e for type 'int', which requires 4 byte alignment 
+0x7ffd6720106e: note: pointer points here 
+ 13 de 1a 7f 00 00  80 10 20 67 fd 7f 00 00  90 d8 45 00 00 00 00 00  10 11 20 67 fd 7f 00 00  bc df 
+             ^  
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 25 5
+
+vflag_file = 25 vflag_func = 5 vflag_copy =25005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 25 6
+
+vflag_file = 25 vflag_func = 6 vflag_copy =25006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 25 7
+
+vflag_file = 25 vflag_func = 7 vflag_copy =25007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 25 8
+
+vflag_file = 25 vflag_func = 8 vflag_copy =25008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 25 9
+
+vflag_file = 25 vflag_func = 9 vflag_copy =25009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 25 10
+
+littlemem_st.c:307:35: runtime error: member access within misaligned address 0x0000010ec262 for type 'littlemem_st_010_s_001', which requires 4 byte alignment 
+0x0000010ec262: note: pointer points here 
+ 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 
+              ^  
+littlemem_st.c:307:35: runtime error: store to misaligned address 0x0000010ec26a for type 'int', which requires 4 byte alignment 
+0x0000010ec26a: note: pointer points here 
+ 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 
+              ^  
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 25 11
+
+vflag_file = 25 vflag_func = 11 vflag_copy =25011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 27 1
+
+vflag_file = 27 vflag_func = 1 vflag_copy =27001  
+Task1! Lock Never Unlock, threadID# 139917111072512! gbl1 = 1  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 27 2
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 27 3
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 27 4
+
+vflag_file = 27 vflag_func = 4 vflag_copy =27004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 27 5
+
+vflag_file = 27 vflag_func = 5 vflag_copy =27005  
+Task5! Lock Never Unlock, threadID# 140601633036032! gbl5 = 5  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 27 6
+
+vflag_file = 27 vflag_func = 6 vflag_copy =27006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 27 7
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 27 8
+
+vflag_file = 27 vflag_func = 8 vflag_copy =27008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 27 9
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 28 1
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 28 2
+
+vflag_file = 28 vflag_func = 2 vflag_copy =28002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 28 3
+
+memory_allocation_failure.c:81:4: runtime error: store to null pointer of type 'unsigned int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 28 4
+
+memory_allocation_failure.c:103:86: runtime error: unsigned integer overflow: 18446744073709551615 * 4 cannot be represented in type 'unsigned long' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 28 5
+
+vflag_file = 28 vflag_func = 5 vflag_copy =28005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 28 6
+
+vflag_file = 28 vflag_func = 6 vflag_copy =28006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 28 7
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 28 8
+
+vflag_file = 28 vflag_func = 8 vflag_copy =28008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 28 9
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 28 10
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 28 11
+
+memory_allocation_failure.c:384:131: runtime error: unsigned integer overflow: 18446744073709551615 * 8 cannot be represented in type 'unsigned long' 
+memory_allocation_failure.c:385:40: runtime error: member access within null pointer of type 'memory_allocation_failure_011_uni_001' 
+memory_allocation_failure.c:385:40: runtime error: store to null pointer of type 'memory_allocation_failure_011_s_001 *' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 28 12
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 28 13
+
+memory_allocation_failure.c:494:17: runtime error: null pointer passed as argument 1, which is declared to never be null 
+: note: nonnull attribute specified here 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 28 14
+
+vflag_file = 28 vflag_func = 14 vflag_copy =28014  
+0 10.500000Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 28 15
+
+memory_allocation_failure.c:641:98: runtime error: unsigned integer overflow: 18446744073709551615 * 4 cannot be represented in type 'unsigned long' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 28 16
+
+vflag_file = 28 vflag_func = 16 vflag_copy =28016  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 29 1
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 29 2
+
+vflag_file = 29 vflag_func = 2 vflag_copy =29002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 29 3
+
+vflag_file = 29 vflag_func = 3 vflag_copy =29003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 29 4
+
+vflag_file = 29 vflag_func = 4 vflag_copy =29004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 29 5
+
+vflag_file = 29 vflag_func = 5 vflag_copy =29005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 29 6
+
+vflag_file = 29 vflag_func = 6 vflag_copy =29006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 29 7
+
+vflag_file = 29 vflag_func = 7 vflag_copy =29007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 29 8
+
+vflag_file = 29 vflag_func = 8 vflag_copy =29008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 29 9
+
+vflag_file = 29 vflag_func = 9 vflag_copy =29009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 29 10
+
+vflag_file = 29 vflag_func = 10 vflag_copy =29010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 29 11
+
+vflag_file = 29 vflag_func = 11 vflag_copy =29011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 29 12
+
+vflag_file = 29 vflag_func = 12 vflag_copy =29012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 29 13
+
+vflag_file = 29 vflag_func = 13 vflag_copy =29013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 29 14
+
+vflag_file = 29 vflag_func = 14 vflag_copy =29014  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 29 15
+
+vflag_file = 29 vflag_func = 15 vflag_copy =29015  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 29 16
+
+vflag_file = 29 vflag_func = 16 vflag_copy =29016  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 29 17
+
+vflag_file = 29 vflag_func = 17 vflag_copy =29017  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 29 18
+
+vflag_file = 29 vflag_func = 18 vflag_copy =29018  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 30 1
+
+vflag_file = 30 vflag_func = 1 vflag_copy =30001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 30 2
+
+vflag_file = 30 vflag_func = 2 vflag_copy =30002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 30 3
+
+vflag_file = 30 vflag_func = 3 vflag_copy =30003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 30 4
+
+vflag_file = 30 vflag_func = 4 vflag_copy =30004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 31 1
+
+null_pointer.c:23:2: runtime error: store to null pointer of type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 31 2
+
+null_pointer.c:34:8: runtime error: load of null pointer of type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 31 3
+
+null_pointer.c:47:2: runtime error: store to null pointer of type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 31 4
+
+null_pointer.c:63:5: runtime error: member access within null pointer of type 'null_pointer_004_s_001' 
+null_pointer.c:63:5: runtime error: store to null pointer of type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 31 5
+
+null_pointer.c:94:5: runtime error: member access within null pointer of type 'null_pointer_005_uni_001' 
+null_pointer.c:94:5: runtime error: member access within null pointer of type 'null_pointer_005_s_001' 
+null_pointer.c:94:8: runtime error: store to null pointer of type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 31 6
+
+null_pointer.c:105:2: runtime error: store to misaligned address 0x00006b8b4567 for type 'int', which requires 4 byte alignment 
+0x00006b8b4567: note: pointer points here 
+<memory cannot be printed> 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 31 7
+
+null_pointer.c:117:2: runtime error: store to null pointer of type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 31 8
+
+null_pointer.c:133:2: runtime error: store to null pointer of type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 31 9
+
+null_pointer.c:142:2: runtime error: store to null pointer of type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 31 10
+
+null_pointer.c:159:2: runtime error: store to null pointer of type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 31 11
+
+null_pointer.c:173:2: runtime error: store to null pointer of type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 31 12
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 31 13
+
+null_pointer.c:196:2: runtime error: store to null pointer of type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 31 14
+
+null_pointer.c:213:2: runtime error: store to null pointer of type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 31 15
+
+null_pointer.c:238:9: runtime error: null pointer passed as argument 1, which is declared to never be null 
+: note: nonnull attribute specified here 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 31 17
+
+null_pointer.c:335:14: runtime error: load of null pointer of type 'char *' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 1
+
+overrun_st.c:21:2: runtime error: index 5 out of bounds for type 'char [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 2
+
+overrun_st.c:32:2: runtime error: index 5 out of bounds for type 'short [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 3
+
+overrun_st.c:44:8: runtime error: index 5 out of bounds for type 'int [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 4
+
+overrun_st.c:55:2: runtime error: index 5 out of bounds for type 'int [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 5
+
+overrun_st.c:66:2: runtime error: index 5 out of bounds for type 'long [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 6
+
+overrun_st.c:77:2: runtime error: index 5 out of bounds for type 'float [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 7
+
+overrun_st.c:88:2: runtime error: index 5 out of bounds for type 'double [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 8
+
+overrun_st.c:99:2: runtime error: index 5 out of bounds for type 'int [5][6]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 9
+
+overrun_st.c:110:2: runtime error: index 5 out of bounds for type 'int [5][6][7]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 10
+
+vflag_file = 32 vflag_func = 10 vflag_copy =32010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 11
+
+overrun_st.c:142:2: runtime error: index 5 out of bounds for type 'overrun_st_011_s_001 [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 12
+
+overrun_st.c:158:2: runtime error: index 5 out of bounds for type 'int [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 13
+
+overrun_st.c:169:2: runtime error: index 5 out of bounds for type 'int [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 14
+
+overrun_st.c:182:2: runtime error: index 1804289383 out of bounds for type 'int [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 15
+
+overrun_st.c:194:2: runtime error: index 5 out of bounds for type 'int [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 16
+
+overrun_st.c:206:2: runtime error: index 5 out of bounds for type 'int [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 17
+
+overrun_st.c:222:2: runtime error: index 5 out of bounds for type 'int [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 18
+
+overrun_st.c:233:2: runtime error: index 5 out of bounds for type 'int [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 19
+
+overrun_st.c:250:2: runtime error: index 5 out of bounds for type 'int [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 20
+
+overrun_st.c:264:2: runtime error: index 5 out of bounds for type 'int [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 21
+
+overrun_st.c:280:2: runtime error: index 5 out of bounds for type 'int [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 22
+
+vflag_file = 32 vflag_func = 22 vflag_copy =32022  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 23
+
+vflag_file = 32 vflag_func = 23 vflag_copy =32023  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 24
+
+vflag_file = 32 vflag_func = 24 vflag_copy =32024  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 25
+
+vflag_file = 32 vflag_func = 25 vflag_copy =32025  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 26
+
+vflag_file = 32 vflag_func = 26 vflag_copy =32026  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 27
+
+vflag_file = 32 vflag_func = 27 vflag_copy =32027  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 28
+
+vflag_file = 32 vflag_func = 28 vflag_copy =32028  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 29
+
+vflag_file = 32 vflag_func = 29 vflag_copy =32029  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 30
+
+vflag_file = 32 vflag_func = 30 vflag_copy =32030  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 31
+
+vflag_file = 32 vflag_func = 31 vflag_copy =32031  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 32
+
+vflag_file = 32 vflag_func = 32 vflag_copy =32032  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 33
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 34
+
+vflag_file = 32 vflag_func = 34 vflag_copy =32034  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 35
+
+vflag_file = 32 vflag_func = 35 vflag_copy =32035  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 36
+
+vflag_file = 32 vflag_func = 36 vflag_copy =32036  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 37
+
+vflag_file = 32 vflag_func = 37 vflag_copy =32037  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 38
+
+vflag_file = 32 vflag_func = 38 vflag_copy =32038  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 39
+
+vflag_file = 32 vflag_func = 39 vflag_copy =32039  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 40
+
+vflag_file = 32 vflag_func = 40 vflag_copy =32040  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 41
+
+overrun_st.c:570:3: runtime error: index 5 out of bounds for type 'int [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 42
+
+overrun_st.c:588:4: runtime error: index 5 out of bounds for type 'int [5][6]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 43
+
+vflag_file = 32 vflag_func = 43 vflag_copy =32043  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 44
+
+vflag_file = 32 vflag_func = 44 vflag_copy =32044  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 45
+
+vflag_file = 32 vflag_func = 45 vflag_copy =32045  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 46
+
+vflag_file = 32 vflag_func = 46 vflag_copy =32046  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 47
+
+vflag_file = 32 vflag_func = 47 vflag_copy =32047  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 48
+
+vflag_file = 32 vflag_func = 48 vflag_copy =32048  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 49
+
+overrun_st.c:706:2: runtime error: index 5 out of bounds for type 'int [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 50
+
+overrun_st.c:724:2: runtime error: index 5 out of bounds for type 'int [5][6]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 51
+
+vflag_file = 32 vflag_func = 51 vflag_copy =32051  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 52
+
+overrun_st.c:749:2: runtime error: index 5 out of bounds for type 'char [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 32 53
+
+vflag_file = 32 vflag_func = 53 vflag_copy =32053  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 32 54
+
+vflag_file = 32 vflag_func = 54 vflag_copy =32054  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 33 1
+
+vflag_file = 33 vflag_func = 1 vflag_copy =33001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 33 2
+
+vflag_file = 33 vflag_func = 2 vflag_copy =33002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 35 1
+
+vflag_file = 35 vflag_func = 1 vflag_copy =35001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 35 2
+
+vflag_file = 35 vflag_func = 2 vflag_copy =35002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 36 1
+
+vflag_file = 36 vflag_func = 1 vflag_copy =36001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 36 2
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 36 3
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 36 4
+
+vflag_file = 36 vflag_func = 4 vflag_copy =36004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 36 5
+
+vflag_file = 36 vflag_func = 5 vflag_copy =36005  
+Task5! race condition, threadID# 139686596327168! gbl1 = 1  
+Task5! race condition, threadID# 139686604719872! gbl1 = 2  
+Task5! race condition, threadID# 139686613112576! gbl1 = 3  
+Task5! race condition, threadID# 139686621505280! gbl1 = 4  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 36 6
+
+vflag_file = 36 vflag_func = 6 vflag_copy =36006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 36 7
+
+vflag_file = 36 vflag_func = 7 vflag_copy =36007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 36 8
+
+vflag_file = 36 vflag_func = 8 vflag_copy =36008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 37 1
+
+vflag_file = 37 vflag_func = 1 vflag_copy =37001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 37 2
+
+vflag_file = 37 vflag_func = 2 vflag_copy =37002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 37 3
+
+vflag_file = 37 vflag_func = 3 vflag_copy =37003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 37 4
+
+vflag_file = 37 vflag_func = 4 vflag_copy =37004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 37 5
+
+vflag_file = 37 vflag_func = 5 vflag_copy =37005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 37 6
+
+vflag_file = 37 vflag_func = 6 vflag_copy =37006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 37 7
+
+vflag_file = 37 vflag_func = 7 vflag_copy =37007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 37 8
+
+vflag_file = 37 vflag_func = 8 vflag_copy =37008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 37 9
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 37 10
+
+vflag_file = 37 vflag_func = 10 vflag_copy =37010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 37 11
+
+vflag_file = 37 vflag_func = 11 vflag_copy =37011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 37 12
+
+vflag_file = 37 vflag_func = 12 vflag_copy =37012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 37 13
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 37 14
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 38 1
+
+vflag_file = 38 vflag_func = 1 vflag_copy =38001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 38 2
+
+vflag_file = 38 vflag_func = 2 vflag_copy =38002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 39 1
+
+vflag_file = 39 vflag_func = 1 vflag_copy =39001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 39 2
+
+vflag_file = 39 vflag_func = 2 vflag_copy =39002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 39 3
+
+vflag_file = 39 vflag_func = 3 vflag_copy =39003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 39 4
+
+vflag_file = 39 vflag_func = 4 vflag_copy =39004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 39 5
+
+vflag_file = 39 vflag_func = 5 vflag_copy =39005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 39 6
+
+vflag_file = 39 vflag_func = 6 vflag_copy =39006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 39 7
+
+vflag_file = 39 vflag_func = 7 vflag_copy =39007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 39 8
+
+vflag_file = 39 vflag_func = 8 vflag_copy =39008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 39 9
+
+vflag_file = 39 vflag_func = 9 vflag_copy =39009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 39 10
+
+vflag_file = 39 vflag_func = 10 vflag_copy =39010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 39 11
+
+vflag_file = 39 vflag_func = 11 vflag_copy =39011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 39 12
+
+vflag_file = 39 vflag_func = 12 vflag_copy =39012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 39 13
+
+vflag_file = 39 vflag_func = 13 vflag_copy =39013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 39 14
+
+vflag_file = 39 vflag_func = 14 vflag_copy =39014  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 39 15
+
+vflag_file = 39 vflag_func = 15 vflag_copy =39015  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 39 16
+
+vflag_file = 39 vflag_func = 16 vflag_copy =39016  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 39 17
+
+vflag_file = 39 vflag_func = 17 vflag_copy =39017  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 39 18
+
+vflag_file = 39 vflag_func = 18 vflag_copy =39018  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 39 19
+
+vflag_file = 39 vflag_func = 19 vflag_copy =39019  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 40 1
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 40 2
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 40 3
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 41 1
+
+st_cross_thread_access.c:45:2: runtime error: store to null pointer of type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 41 2
+
+vflag_file = 41 vflag_func = 2 vflag_copy =41002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 41 3
+
+vflag_file = 41 vflag_func = 3 vflag_copy =41003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 41 4
+
+vflag_file = 41 vflag_func = 4 vflag_copy =41004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 41 5
+
+vflag_file = 41 vflag_func = 5 vflag_copy =41005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 41 6
+
+vflag_file = 41 vflag_func = 6 vflag_copy =41006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 42 1
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 42 2
+
+vflag_file = 42 vflag_func = 2 vflag_copy =42002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 42 3
+
+vflag_file = 42 vflag_func = 3 vflag_copy =42003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 42 4
+
+vflag_file = 42 vflag_func = 4 vflag_copy =42004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 42 5
+
+vflag_file = 42 vflag_func = 5 vflag_copy =42005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 42 6
+
+vflag_file = 42 vflag_func = 6 vflag_copy =42006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 42 7
+
+vflag_file = 42 vflag_func = 7 vflag_copy =42007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 43 1
+
+st_underrun.c:25:10: runtime error: index -1 out of bounds for type 'char [10]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 43 2
+
+st_underrun.c:51:9: runtime error: index -1 out of bounds for type 'char [10]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 43 3
+
+st_underrun.c:92:11: runtime error: index -1 out of bounds for type 'char [10]' 
+st_underrun.c:88:4: runtime error: index -1 out of bounds for type 'char [10]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 43 4
+
+st_underrun.c:130:11: runtime error: index -1 out of bounds for type 'char [10]' 
+st_underrun.c:125:4: runtime error: index -1 out of bounds for type 'char [10]' 
+st_underrun.c:126:18: runtime error: index -1 out of bounds for type 'char [10]' 
+st_underrun.c:126:4: runtime error: index -1 out of bounds for type 'char [10]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 43 5
+
+st_underrun.c:160:4: runtime error: index -1 out of bounds for type 'char [10]' 
+st_underrun.c:150:9: runtime error: index -1 out of bounds for type 'char [10]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 43 6
+
+st_underrun.c:193:9: runtime error: index 10 out of bounds for type 'char [10]' 
+st_underrun.c:195:14: runtime error: index 10 out of bounds for type 'char [10]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 43 7
+
+st_underrun.c:227:9: runtime error: index -1 out of bounds for type 'char [10]' 
+st_underrun.c:229:13: runtime error: index -1 out of bounds for type 'char [10]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 44 1
+
+underrun_st.c:21:8: runtime error: index -1 out of bounds for type 'int [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 44 2
+
+underrun_st.c:31:2: runtime error: index -1 out of bounds for type 'int [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 44 3
+
+underrun_st.c:42:2: runtime error: index -1 out of bounds for type 'int [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 44 4
+
+vflag_file = 44 vflag_func = 4 vflag_copy =44004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 44 5
+
+vflag_file = 44 vflag_func = 5 vflag_copy =44005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 44 6
+
+vflag_file = 44 vflag_func = 6 vflag_copy =44006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 44 7
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 44 8
+
+vflag_file = 44 vflag_func = 8 vflag_copy =44008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 44 9
+
+underrun_st.c:124:3: runtime error: index -1 out of bounds for type 'int [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 44 10
+
+vflag_file = 44 vflag_func = 10 vflag_copy =44010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 44 11
+
+underrun_st.c:155:3: runtime error: index -1 out of bounds for type 'int [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 44 12
+
+vflag_file = 44 vflag_func = 12 vflag_copy =44012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 44 13
+
+underrun_st.c:190:3: runtime error: index -1 out of bounds for type 'int [5]' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 45 1
+
+vflag_file = 45 vflag_func = 1 vflag_copy =45001  
+139677571022849 Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 45 2
+
+vflag_file = 45 vflag_func = 2 vflag_copy =45002  
+0.000000 Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 45 3
+
+vflag_file = 45 vflag_func = 3 vflag_copy =45003  
+vflag_file = %d vflag_func = %d vflag_copy =%d  
+ vflag_file = %d vflag_func = %d vflag_copy =%d  
+ 
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 45 4
+
+vflag_file = 45 vflag_func = 4 vflag_copy =45004  
+0  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 45 5
+
+vflag_file = 45 vflag_func = 5 vflag_copy =45005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 45 6
+
+vflag_file = 45 vflag_func = 6 vflag_copy =45006  
+vflag_file = %d vflag_func = %d vflag_copy =%d  
+ 
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 45 7
+
+vflag_file = 45 vflag_func = 7 vflag_copy =45007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 45 8
+
+vflag_file = 45 vflag_func = 8 vflag_copy =45008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 45 9
+
+vflag_file = 45 vflag_func = 9 vflag_copy =45009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 45 10
+
+vflag_file = 45 vflag_func = 10 vflag_copy =45010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 45 11
+
+vflag_file = 45 vflag_func = 11 vflag_copy =45011  
+ test Error: "Ί 
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 45 12
+
+vflag_file = 45 vflag_func = 12 vflag_copy =45012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 45 13
+
+vflag_file = 45 vflag_func = 13 vflag_copy =45013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 45 14
+
+uninit_memory_access.c:418:11: runtime error: member access within misaligned address 0xffffffffffffffff for type 'uninit_memory_access_014_u_001', which requires 4 byte alignment 
+0xffffffffffffffff: note: pointer points here 
+<memory cannot be printed> 
+uninit_memory_access.c:418:11: runtime error: load of misaligned address 0xffffffffffffffff for type 'int', which requires 4 byte alignment 
+0xffffffffffffffff: note: pointer points here 
+<memory cannot be printed> 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 45 15
+
+uninit_memory_access.c:439:14: runtime error: signed integer overflow: -1738665528 + -1738665528 cannot be represented in type 'int' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 46 1
+
+uninit_pointer.c:29:8: runtime error: load of misaligned address 0x000000469b8d for type 'int', which requires 4 byte alignment 
+0x000000469b8d: note: pointer points here 
+ 62 2e 68 00 76 66 6c  61 67 5f 66 69 6c 65 20  3d 20 25 64 20 76 66 6c  61 67 5f 66 75 6e 63 20  3d 
+             ^  
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 46 2
+
+uninit_pointer.c:40:2: runtime error: store to misaligned address 0x000000469b8d for type 'int', which requires 4 byte alignment 
+0x000000469b8d: note: pointer points here 
+ 62 2e 68 00 76 66 6c  61 67 5f 66 69 6c 65 20  3d 20 25 64 20 76 66 6c  61 67 5f 66 75 6e 63 20  3d 
+             ^  
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 46 3
+
+uninit_pointer.c:54:8: runtime error: load of misaligned address 0x000000469b8d for type 'int', which requires 4 byte alignment 
+0x000000469b8d: note: pointer points here 
+ 62 2e 68 00 76 66 6c  61 67 5f 66 69 6c 65 20  3d 20 25 64 20 76 66 6c  61 67 5f 66 75 6e 63 20  3d 
+             ^  
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 46 4
+
+vflag_file = 46 vflag_func = 4 vflag_copy =46004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 46 5
+
+uninit_pointer.c:89:8: runtime error: load of misaligned address 0x00000000b3b9 for type 'int', which requires 4 byte alignment 
+0x00000000b3b9: note: pointer points here 
+<memory cannot be printed> 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 46 6
+
+uninit_pointer.c:103:2: runtime error: store to misaligned address 0x000000469b8d for type 'int', which requires 4 byte alignment 
+0x000000469b8d: note: pointer points here 
+ 62 2e 68 00 76 66 6c  61 67 5f 66 69 6c 65 20  3d 20 25 64 20 76 66 6c  61 67 5f 66 75 6e 63 20  3d 
+             ^  
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 46 7
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 46 8
+
+vflag_file = 46 vflag_func = 8 vflag_copy =46008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 46 9
+
+vflag_file = 46 vflag_func = 9 vflag_copy =46009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 46 10
+
+vflag_file = 46 vflag_func = 10 vflag_copy =46010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 46 11
+
+vflag_file = 46 vflag_func = 11 vflag_copy =46011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 46 12
+
+vflag_file = 46 vflag_func = 12 vflag_copy =46012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 46 13
+
+vflag_file = 46 vflag_func = 13 vflag_copy =46013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 46 14
+
+vflag_file = 46 vflag_func = 14 vflag_copy =46014  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 46 15
+
+uninit_pointer.c:351:2: runtime error: store to misaligned address 0x7f782cfb2001 for type 'int', which requires 4 byte alignment 
+0x7f782cfb2001: note: pointer points here 
+ 00 00 00  10 12 d7 2c 78 7f 00 00  10 12 d7 2c 78 7f 00 00  bc d1 97 ed fe 7f 00 00  8b d1 97 ed fe 
+              ^  
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 46 16
+
+vflag_file = 46 vflag_func = 16 vflag_copy =46016  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 47 1
+
+vflag_file = 47 vflag_func = 1 vflag_copy =47001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 47 2
+
+vflag_file = 47 vflag_func = 2 vflag_copy =47002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 47 3
+
+vflag_file = 47 vflag_func = 3 vflag_copy =47003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 47 4
+
+vflag_file = 47 vflag_func = 4 vflag_copy =47004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 47 5
+
+vflag_file = 47 vflag_func = 5 vflag_copy =47005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 47 6
+
+vflag_file = 47 vflag_func = 6 vflag_copy =47006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 47 7
+
+vflag_file = 47 vflag_func = 7 vflag_copy =47007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 47 8
+
+vflag_file = 47 vflag_func = 8 vflag_copy =47008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 47 9
+
+vflag_file = 47 vflag_func = 9 vflag_copy =47009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 47 10
+
+vflag_file = 47 vflag_func = 10 vflag_copy =47010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 47 11
+
+vflag_file = 47 vflag_func = 11 vflag_copy =47011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 47 12
+
+vflag_file = 47 vflag_func = 12 vflag_copy =47012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 47 13
+
+vflag_file = 47 vflag_func = 13 vflag_copy =47013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 47 14
+
+vflag_file = 47 vflag_func = 14 vflag_copy =47014  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 47 15
+
+vflag_file = 47 vflag_func = 15 vflag_copy =47015  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 48 1
+
+vflag_file = 48 vflag_func = 1 vflag_copy =48001  
+Task1! Unlock without Lock, threadID# 140542677788416! thread no = THREAD2  
+Task1! Unlock without Lock, threadID# 140542686181120! thread no = THREAD1  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 48 2
+
+vflag_file = 48 vflag_func = 2 vflag_copy =48002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 48 3
+
+vflag_file = 48 vflag_func = 3 vflag_copy =48003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 48 4
+
+vflag_file = 48 vflag_func = 4 vflag_copy =48004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 48 5
+
+vflag_file = 48 vflag_func = 5 vflag_copy =48005  
+Task5! Unlock without Lock, threadID# 140189121582848! gbl5 = 5  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 48 6
+
+vflag_file = 48 vflag_func = 6 vflag_copy =48006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 48 7
+
+vflag_file = 48 vflag_func = 7 vflag_copy =48007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 48 8
+
+vflag_file = 48 vflag_func = 8 vflag_copy =48008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 49 1
+
+vflag_file = 49 vflag_func = 1 vflag_copy =49001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 49 2
+
+vflag_file = 49 vflag_func = 2 vflag_copy =49002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 49 3
+
+vflag_file = 49 vflag_func = 3 vflag_copy =49003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 49 4
+
+vflag_file = 49 vflag_func = 4 vflag_copy =49004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 49 5
+
+vflag_file = 49 vflag_func = 5 vflag_copy =49005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 49 6
+
+vflag_file = 49 vflag_func = 6 vflag_copy =49006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 49 7
+
+vflag_file = 49 vflag_func = 7 vflag_copy =49007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 50 1
+
+vflag_file = 50 vflag_func = 1 vflag_copy =50001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 50 2
+
+vflag_file = 50 vflag_func = 2 vflag_copy =50002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 50 3
+
+wrong_arguments_func_pointer.c:84:10: runtime error: load of misaligned address 0x000000000001 for type 'int', which requires 4 byte alignment 
+0x000000000001: note: pointer points here 
+<memory cannot be printed> 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 50 4
+
+vflag_file = 50 vflag_func = 4 vflag_copy =50004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 50 5
+
+vflag_file = 50 vflag_func = 5 vflag_copy =50005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 50 6
+
+vflag_file = 50 vflag_func = 6 vflag_copy =50006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 50 7
+
+vflag_file = 50 vflag_func = 7 vflag_copy =50007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 50 8
+
+vflag_file = 50 vflag_func = 8 vflag_copy =50008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 50 9
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 50 10
+
+wrong_arguments_func_pointer.c:242:9: runtime error: member access within misaligned address 0x7fea9893f001 for type 'wrong_arguments_func_pointer_010_s_001', which requires 4 byte alignment 
+0x7fea9893f001: note: pointer points here 
+ 00 00 00  10 00 00 00 00 00 00 00  00 e2 6f 98 ea 7f 00 00  bc 81 03 33 fe 7f 00 00  8b 81 03 33 fe 
+              ^  
+wrong_arguments_func_pointer.c:242:9: runtime error: store to misaligned address 0x7fea9893f001 for type 'int', which requires 4 byte alignment 
+0x7fea9893f001: note: pointer points here 
+ 00 00 00  10 00 00 00 00 00 00 00  00 e2 6f 98 ea 7f 00 00  bc 81 03 33 fe 7f 00 00  8b 81 03 33 fe 
+              ^  
+wrong_arguments_func_pointer.c:243:9: runtime error: member access within misaligned address 0x7fea9893f001 for type 'wrong_arguments_func_pointer_010_s_001', which requires 4 byte alignment 
+0x7fea9893f001: note: pointer points here 
+ 00 00 00  10 01 00 00 00 00 00 00  00 e2 6f 98 ea 7f 00 00  bc 81 03 33 fe 7f 00 00  8b 81 03 33 fe 
+              ^  
+wrong_arguments_func_pointer.c:243:9: runtime error: store to misaligned address 0x7fea9893f005 for type 'int', which requires 4 byte alignment 
+0x7fea9893f005: note: pointer points here 
+ 01 00 00 00 00 00 00  00 e2 6f 98 ea 7f 00 00  bc 81 03 33 fe 7f 00 00  8b 81 03 33 fe 7f 00 00  00 
+             ^  
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 50 11
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 50 12
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 50 13
+
+wrong_arguments_func_pointer.c:371:2: runtime error: store to null pointer of type 'char *' 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 50 14
+
+wrong_arguments_func_pointer.c:410:9: runtime error: load of misaligned address 0x7ffe96a9115c for type 'long', which requires 8 byte alignment 
+0x7ffe96a9115c: note: pointer points here 
+  01 f0 48 4c 33 33 33 3f  70 11 a9 96 fe 7f 00 00  d6 08 46 00 00 00 00 00  00 12 a9 96 fe 7f 00 00 
+              ^  
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 50 15
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 50 16
+
+vflag_file = 50 vflag_func = 16 vflag_copy =50016  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 50 17
+
+vflag_file = 50 vflag_func = 17 vflag_copy =50017  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 50 18
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 51 1
+
+zero_division.c:22:17: runtime error: division by zero 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 51 2
+
+zero_division.c:33:11: runtime error: division by zero 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 51 3
+
+zero_division.c:46:17: runtime error: division by zero 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 51 4
+
+zero_division.c:58:33: runtime error: division by zero 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 51 5
+
+zero_division.c:77:17: runtime error: division by zero 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 51 6
+
+zero_division.c:92:17: runtime error: division by zero 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 51 7
+
+zero_division.c:117:17: runtime error: division by zero 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 51 8
+
+zero_division.c:128:17: runtime error: division by zero 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 51 9
+
+zero_division.c:140:17: runtime error: division by zero 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 51 10
+
+vflag_file = 51 vflag_func = 10 vflag_copy =51010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 01.w_Defects 51 11
+
+zero_division.c:165:17: runtime error: division by zero 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 51 12
+
+zero_division.c:177:17: runtime error: division by zero 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 51 13
+
+zero_division.c:194:17: runtime error: division by zero 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 51 14
+
+zero_division.c:205:17: runtime error: division by zero 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 51 15
+
+zero_division.c:224:17: runtime error: division by zero 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 01.w_Defects 51 16
+
+zero_division.c:251:17: runtime error: division by zero 
+ 
+
+Confirmed as True Positive 
+
+UBSan being tested on 02.wo_Defects 1 1
+
+vflag_file = 1 vflag_func = 1 vflag_copy =1001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 1 2
+
+vflag_file = 1 vflag_func = 2 vflag_copy =1002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 1 3
+
+vflag_file = 1 vflag_func = 3 vflag_copy =1003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 1 4
+
+vflag_file = 1 vflag_func = 4 vflag_copy =1004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 1 5
+
+vflag_file = 1 vflag_func = 5 vflag_copy =1005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 1 6
+
+vflag_file = 1 vflag_func = 6 vflag_copy =1006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 1 7
+
+vflag_file = 1 vflag_func = 7 vflag_copy =1007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 1 8
+
+vflag_file = 1 vflag_func = 8 vflag_copy =1008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 1 9
+
+vflag_file = 1 vflag_func = 9 vflag_copy =1009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 1 10
+
+vflag_file = 1 vflag_func = 10 vflag_copy =1010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 1 11
+
+vflag_file = 1 vflag_func = 11 vflag_copy =1011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 1 12
+
+vflag_file = 1 vflag_func = 12 vflag_copy =1012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 1 13
+
+vflag_file = 1 vflag_func = 13 vflag_copy =1013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 1 14
+
+vflag_file = 1 vflag_func = 14 vflag_copy =1014  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 1 15
+
+vflag_file = 1 vflag_func = 15 vflag_copy =1015  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 1 16
+
+vflag_file = 1 vflag_func = 16 vflag_copy =1016  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 1 17
+
+vflag_file = 1 vflag_func = 17 vflag_copy =1017  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 1
+
+vflag_file = 2 vflag_func = 1 vflag_copy =2001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 2
+
+vflag_file = 2 vflag_func = 2 vflag_copy =2002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 3
+
+vflag_file = 2 vflag_func = 3 vflag_copy =2003  
+1Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 4
+
+vflag_file = 2 vflag_func = 4 vflag_copy =2004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 5
+
+vflag_file = 2 vflag_func = 5 vflag_copy =2005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 6
+
+vflag_file = 2 vflag_func = 6 vflag_copy =2006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 7
+
+vflag_file = 2 vflag_func = 7 vflag_copy =2007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 8
+
+vflag_file = 2 vflag_func = 8 vflag_copy =2008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 9
+
+vflag_file = 2 vflag_func = 9 vflag_copy =2009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 10
+
+vflag_file = 2 vflag_func = 10 vflag_copy =2010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 11
+
+vflag_file = 2 vflag_func = 11 vflag_copy =2011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 12
+
+vflag_file = 2 vflag_func = 12 vflag_copy =2012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 13
+
+vflag_file = 2 vflag_func = 13 vflag_copy =2013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 14
+
+vflag_file = 2 vflag_func = 14 vflag_copy =2014  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 15
+
+vflag_file = 2 vflag_func = 15 vflag_copy =2015  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 16
+
+vflag_file = 2 vflag_func = 16 vflag_copy =2016  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 17
+
+vflag_file = 2 vflag_func = 17 vflag_copy =2017  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 18
+
+vflag_file = 2 vflag_func = 18 vflag_copy =2018  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 19
+
+vflag_file = 2 vflag_func = 19 vflag_copy =2019  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 20
+
+vflag_file = 2 vflag_func = 20 vflag_copy =2020  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 21
+
+vflag_file = 2 vflag_func = 21 vflag_copy =2021  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 22
+
+vflag_file = 2 vflag_func = 22 vflag_copy =2022  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 23
+
+vflag_file = 2 vflag_func = 23 vflag_copy =2023  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 24
+
+vflag_file = 2 vflag_func = 24 vflag_copy =2024  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 25
+
+vflag_file = 2 vflag_func = 25 vflag_copy =2025  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 26
+
+vflag_file = 2 vflag_func = 26 vflag_copy =2026  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 27
+
+vflag_file = 2 vflag_func = 27 vflag_copy =2027  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 28
+
+vflag_file = 2 vflag_func = 28 vflag_copy =2028  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 29
+
+vflag_file = 2 vflag_func = 29 vflag_copy =2029  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 30
+
+vflag_file = 2 vflag_func = 30 vflag_copy =2030  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 31
+
+vflag_file = 2 vflag_func = 31 vflag_copy =2031  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 2 32
+
+vflag_file = 2 vflag_func = 32 vflag_copy =2032  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 1
+
+vflag_file = 3 vflag_func = 1 vflag_copy =3001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 2
+
+vflag_file = 3 vflag_func = 2 vflag_copy =3002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 3
+
+vflag_file = 3 vflag_func = 3 vflag_copy =3003  
+1Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 4
+
+vflag_file = 3 vflag_func = 4 vflag_copy =3004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 5
+
+vflag_file = 3 vflag_func = 5 vflag_copy =3005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 6
+
+vflag_file = 3 vflag_func = 6 vflag_copy =3006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 7
+
+vflag_file = 3 vflag_func = 7 vflag_copy =3007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 8
+
+vflag_file = 3 vflag_func = 8 vflag_copy =3008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 9
+
+vflag_file = 3 vflag_func = 9 vflag_copy =3009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 10
+
+vflag_file = 3 vflag_func = 10 vflag_copy =3010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 11
+
+vflag_file = 3 vflag_func = 11 vflag_copy =3011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 12
+
+vflag_file = 3 vflag_func = 12 vflag_copy =3012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 13
+
+vflag_file = 3 vflag_func = 13 vflag_copy =3013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 14
+
+vflag_file = 3 vflag_func = 14 vflag_copy =3014  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 15
+
+vflag_file = 3 vflag_func = 15 vflag_copy =3015  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 16
+
+vflag_file = 3 vflag_func = 16 vflag_copy =3016  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 17
+
+vflag_file = 3 vflag_func = 17 vflag_copy =3017  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 18
+
+vflag_file = 3 vflag_func = 18 vflag_copy =3018  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 19
+
+vflag_file = 3 vflag_func = 19 vflag_copy =3019  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 20
+
+vflag_file = 3 vflag_func = 20 vflag_copy =3020  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 21
+
+vflag_file = 3 vflag_func = 21 vflag_copy =3021  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 22
+
+vflag_file = 3 vflag_func = 22 vflag_copy =3022  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 23
+
+vflag_file = 3 vflag_func = 23 vflag_copy =3023  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 24
+
+vflag_file = 3 vflag_func = 24 vflag_copy =3024  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 25
+
+vflag_file = 3 vflag_func = 25 vflag_copy =3025  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 26
+
+vflag_file = 3 vflag_func = 26 vflag_copy =3026  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 27
+
+vflag_file = 3 vflag_func = 27 vflag_copy =3027  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 28
+
+vflag_file = 3 vflag_func = 28 vflag_copy =3028  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 29
+
+vflag_file = 3 vflag_func = 29 vflag_copy =3029  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 30
+
+vflag_file = 3 vflag_func = 30 vflag_copy =3030  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 31
+
+vflag_file = 3 vflag_func = 31 vflag_copy =3031  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 32
+
+vflag_file = 3 vflag_func = 32 vflag_copy =3032  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 33
+
+vflag_file = 3 vflag_func = 33 vflag_copy =3033  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 34
+
+vflag_file = 3 vflag_func = 34 vflag_copy =3034  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 35
+
+vflag_file = 3 vflag_func = 35 vflag_copy =3035  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 36
+
+vflag_file = 3 vflag_func = 36 vflag_copy =3036  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 37
+
+vflag_file = 3 vflag_func = 37 vflag_copy =3037  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 3 38
+
+vflag_file = 3 vflag_func = 38 vflag_copy =3038  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 4 1
+
+vflag_file = 4 vflag_func = 1 vflag_copy =4001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 4 2
+
+vflag_file = 4 vflag_func = 2 vflag_copy =4002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 5 1
+
+vflag_file = 5 vflag_func = 1 vflag_copy =5001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 5 2
+
+vflag_file = 5 vflag_func = 2 vflag_copy =5002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 5 3
+
+vflag_file = 5 vflag_func = 3 vflag_copy =5003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 5 4
+
+vflag_file = 5 vflag_func = 4 vflag_copy =5004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 5 5
+
+vflag_file = 5 vflag_func = 5 vflag_copy =5005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 5 6
+
+vflag_file = 5 vflag_func = 6 vflag_copy =5006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 5 7
+
+vflag_file = 5 vflag_func = 7 vflag_copy =5007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 5 8
+
+vflag_file = 5 vflag_func = 8 vflag_copy =5008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 5 9
+
+vflag_file = 5 vflag_func = 9 vflag_copy =5009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 5 10
+
+vflag_file = 5 vflag_func = 10 vflag_copy =5010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 6 1
+
+vflag_file = 6 vflag_func = 1 vflag_copy =6001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 6 2
+
+vflag_file = 6 vflag_func = 2 vflag_copy =6002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 6 3
+
+vflag_file = 6 vflag_func = 3 vflag_copy =6003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 6 4
+
+vflag_file = 6 vflag_func = 4 vflag_copy =6004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 6 5
+
+vflag_file = 6 vflag_func = 5 vflag_copy =6005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 6 6
+
+vflag_file = 6 vflag_func = 6 vflag_copy =6006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 6 7
+
+vflag_file = 6 vflag_func = 7 vflag_copy =6007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 6 8
+
+vflag_file = 6 vflag_func = 8 vflag_copy =6008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 6 9
+
+vflag_file = 6 vflag_func = 9 vflag_copy =6009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 6 10
+
+vflag_file = 6 vflag_func = 10 vflag_copy =6010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 6 11
+
+vflag_file = 6 vflag_func = 11 vflag_copy =6011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 6 12
+
+vflag_file = 6 vflag_func = 12 vflag_copy =6012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 6 13
+
+vflag_file = 6 vflag_func = 13 vflag_copy =6013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 6 14
+
+vflag_file = 6 vflag_func = 14 vflag_copy =6014  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 6 15
+
+vflag_file = 6 vflag_func = 15 vflag_copy =6015  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 6 16
+
+vflag_file = 6 vflag_func = 16 vflag_copy =6016  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 6 17
+
+vflag_file = 6 vflag_func = 17 vflag_copy =6017  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 6 18
+
+vflag_file = 6 vflag_func = 18 vflag_copy =6018  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 6 19
+
+vflag_file = 6 vflag_func = 19 vflag_copy =6019  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 1
+
+vflag_file = 7 vflag_func = 1 vflag_copy =7001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 2
+
+vflag_file = 7 vflag_func = 2 vflag_copy =7002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 3
+
+vflag_file = 7 vflag_func = 3 vflag_copy =7003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 4
+
+vflag_file = 7 vflag_func = 4 vflag_copy =7004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 5
+
+vflag_file = 7 vflag_func = 5 vflag_copy =7005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 6
+
+vflag_file = 7 vflag_func = 6 vflag_copy =7006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 7
+
+vflag_file = 7 vflag_func = 7 vflag_copy =7007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 8
+
+vflag_file = 7 vflag_func = 8 vflag_copy =7008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 9
+
+vflag_file = 7 vflag_func = 9 vflag_copy =7009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 10
+
+vflag_file = 7 vflag_func = 10 vflag_copy =7010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 11
+
+vflag_file = 7 vflag_func = 11 vflag_copy =7011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 12
+
+vflag_file = 7 vflag_func = 12 vflag_copy =7012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 13
+
+vflag_file = 7 vflag_func = 13 vflag_copy =7013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 14
+
+vflag_file = 7 vflag_func = 14 vflag_copy =7014  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 15
+
+vflag_file = 7 vflag_func = 15 vflag_copy =7015  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 16
+
+vflag_file = 7 vflag_func = 16 vflag_copy =7016  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 17
+
+vflag_file = 7 vflag_func = 17 vflag_copy =7017  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 18
+
+vflag_file = 7 vflag_func = 18 vflag_copy =7018  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 19
+
+vflag_file = 7 vflag_func = 19 vflag_copy =7019  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 20
+
+vflag_file = 7 vflag_func = 20 vflag_copy =7020  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 21
+
+vflag_file = 7 vflag_func = 21 vflag_copy =7021  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 22
+
+vflag_file = 7 vflag_func = 22 vflag_copy =7022  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 23
+
+vflag_file = 7 vflag_func = 23 vflag_copy =7023  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 24
+
+vflag_file = 7 vflag_func = 24 vflag_copy =7024  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 7 25
+
+vflag_file = 7 vflag_func = 25 vflag_copy =7025  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 8 1
+
+vflag_file = 8 vflag_func = 1 vflag_copy =8001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 8 2
+
+vflag_file = 8 vflag_func = 2 vflag_copy =8002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 8 3
+
+vflag_file = 8 vflag_func = 3 vflag_copy =8003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 8 4
+
+vflag_file = 8 vflag_func = 4 vflag_copy =8004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 8 5
+
+vflag_file = 8 vflag_func = 5 vflag_copy =8005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 8 6
+
+vflag_file = 8 vflag_func = 6 vflag_copy =8006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 8 7
+
+vflag_file = 8 vflag_func = 7 vflag_copy =8007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 8 8
+
+vflag_file = 8 vflag_func = 8 vflag_copy =8008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 8 9
+
+vflag_file = 8 vflag_func = 9 vflag_copy =8009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 8 10
+
+vflag_file = 8 vflag_func = 10 vflag_copy =8010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 8 11
+
+vflag_file = 8 vflag_func = 11 vflag_copy =8011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 8 12
+
+vflag_file = 8 vflag_func = 12 vflag_copy =8012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 9 1
+
+vflag_file = 9 vflag_func = 1 vflag_copy =9001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 9 2
+
+vflag_file = 9 vflag_func = 2 vflag_copy =9002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 9 3
+
+vflag_file = 9 vflag_func = 3 vflag_copy =9003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 9 4
+
+vflag_file = 9 vflag_func = 4 vflag_copy =9004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 9 5
+
+vflag_file = 9 vflag_func = 5 vflag_copy =9005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 9 6
+
+vflag_file = 9 vflag_func = 6 vflag_copy =9006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 9 7
+
+vflag_file = 9 vflag_func = 7 vflag_copy =9007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 9 8
+
+vflag_file = 9 vflag_func = 8 vflag_copy =9008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 9 9
+
+vflag_file = 9 vflag_func = 9 vflag_copy =9009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 9 10
+
+vflag_file = 9 vflag_func = 10 vflag_copy =9010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 9 11
+
+vflag_file = 9 vflag_func = 11 vflag_copy =9011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 9 12
+
+vflag_file = 9 vflag_func = 12 vflag_copy =9012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 9 13
+
+vflag_file = 9 vflag_func = 13 vflag_copy =9013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 10 1
+
+vflag_file = 10 vflag_func = 1 vflag_copy =10001  
+Task1! dead_lock= 21  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 10 2
+
+vflag_file = 10 vflag_func = 2 vflag_copy =10002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 10 3
+
+vflag_file = 10 vflag_func = 3 vflag_copy =10003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 10 4
+
+vflag_file = 10 vflag_func = 4 vflag_copy =10004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 10 5
+
+vflag_file = 10 vflag_func = 5 vflag_copy =10005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 11 1
+
+vflag_file = 11 vflag_func = 1 vflag_copy =11001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 11 2
+
+vflag_file = 11 vflag_func = 2 vflag_copy =11002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 11 3
+
+vflag_file = 11 vflag_func = 3 vflag_copy =11003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 12 1
+
+vflag_file = 12 vflag_func = 1 vflag_copy =12001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 12 2
+
+vflag_file = 12 vflag_func = 2 vflag_copy =12002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 12 3
+
+vflag_file = 12 vflag_func = 3 vflag_copy =12003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 12 4
+
+vflag_file = 12 vflag_func = 4 vflag_copy =12004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 12 5
+
+vflag_file = 12 vflag_func = 5 vflag_copy =12005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 12 6
+
+vflag_file = 12 vflag_func = 6 vflag_copy =12006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 12 7
+
+vflag_file = 12 vflag_func = 7 vflag_copy =12007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 12 8
+
+vflag_file = 12 vflag_func = 8 vflag_copy =12008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 12 9
+
+vflag_file = 12 vflag_func = 9 vflag_copy =12009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 12 10
+
+vflag_file = 12 vflag_func = 10 vflag_copy =12010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 12 11
+
+vflag_file = 12 vflag_func = 11 vflag_copy =12011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 12 12
+
+vflag_file = 12 vflag_func = 12 vflag_copy =12012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 13 1
+
+vflag_file = 13 vflag_func = 1 vflag_copy =13001  
+Task1! It's me, thread #2271225600! 
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 13 2
+
+vflag_file = 13 vflag_func = 2 vflag_copy =13002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 13 3
+
+vflag_file = 13 vflag_func = 3 vflag_copy =13003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 13 4
+
+vflag_file = 13 vflag_func = 4 vflag_copy =13004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 14 1
+
+vflag_file = 14 vflag_func = 1 vflag_copy =14001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 14 2
+
+vflag_file = 14 vflag_func = 2 vflag_copy =14002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 14 3
+
+vflag_file = 14 vflag_func = 3 vflag_copy =14003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 14 4
+
+vflag_file = 14 vflag_func = 4 vflag_copy =14004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 14 5
+
+vflag_file = 14 vflag_func = 5 vflag_copy =14005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 14 6
+
+vflag_file = 14 vflag_func = 6 vflag_copy =14006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 15 1
+
+vflag_file = 15 vflag_func = 1 vflag_copy =15001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 15 2
+
+vflag_file = 15 vflag_func = 2 vflag_copy =15002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 15 3
+
+vflag_file = 15 vflag_func = 3 vflag_copy =15003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 15 4
+
+vflag_file = 15 vflag_func = 4 vflag_copy =15004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 15 5
+
+vflag_file = 15 vflag_func = 5 vflag_copy =15005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 15 6
+
+vflag_file = 15 vflag_func = 6 vflag_copy =15006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 15 7
+
+vflag_file = 15 vflag_func = 7 vflag_copy =15007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 15 8
+
+vflag_file = 15 vflag_func = 8 vflag_copy =15008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 15 9
+
+vflag_file = 15 vflag_func = 9 vflag_copy =15009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 16 1
+
+vflag_file = 16 vflag_func = 1 vflag_copy =16001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 16 2
+
+vflag_file = 16 vflag_func = 2 vflag_copy =16002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 16 3
+
+vflag_file = 16 vflag_func = 3 vflag_copy =16003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 16 4
+
+vflag_file = 16 vflag_func = 4 vflag_copy =16004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 16 5
+
+vflag_file = 16 vflag_func = 5 vflag_copy =16005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 16 6
+
+vflag_file = 16 vflag_func = 6 vflag_copy =16006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 16 7
+
+vflag_file = 16 vflag_func = 7 vflag_copy =16007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 16 8
+
+vflag_file = 16 vflag_func = 8 vflag_copy =16008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 16 9
+
+vflag_file = 16 vflag_func = 9 vflag_copy =16009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 16 10
+
+vflag_file = 16 vflag_func = 10 vflag_copy =16010  
+gPrinted from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 16 11
+
+vflag_file = 16 vflag_func = 11 vflag_copy =16011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 16 12
+
+vflag_file = 16 vflag_func = 12 vflag_copy =16012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 16 13
+
+vflag_file = 16 vflag_func = 13 vflag_copy =16013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 16 14
+
+vflag_file = 16 vflag_func = 14 vflag_copy =16014  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 16 15
+
+vflag_file = 16 vflag_func = 15 vflag_copy =16015  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 16 16
+
+vflag_file = 16 vflag_func = 16 vflag_copy =16016  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 17 1
+
+vflag_file = 17 vflag_func = 1 vflag_copy =17001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 17 2
+
+vflag_file = 17 vflag_func = 2 vflag_copy =17002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 17 3
+
+vflag_file = 17 vflag_func = 3 vflag_copy =17003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 17 4
+
+vflag_file = 17 vflag_func = 4 vflag_copy =17004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 17 5
+
+vflag_file = 17 vflag_func = 5 vflag_copy =17005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 17 6
+
+vflag_file = 17 vflag_func = 6 vflag_copy =17006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 17 8
+
+vflag_file = 17 vflag_func = 8 vflag_copy =17008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 17 11
+
+vflag_file = 17 vflag_func = 11 vflag_copy =17011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 18 1
+
+vflag_file = 18 vflag_func = 1 vflag_copy =18001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 18 2
+
+vflag_file = 18 vflag_func = 2 vflag_copy =18002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 18 3
+
+vflag_file = 18 vflag_func = 3 vflag_copy =18003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 18 4
+
+vflag_file = 18 vflag_func = 4 vflag_copy =18004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 18 5
+
+vflag_file = 18 vflag_func = 5 vflag_copy =18005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 18 6
+
+vflag_file = 18 vflag_func = 6 vflag_copy =18006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 18 7
+
+vflag_file = 18 vflag_func = 7 vflag_copy =18007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 18 8
+
+vflag_file = 18 vflag_func = 8 vflag_copy =18008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 18 9
+
+vflag_file = 18 vflag_func = 9 vflag_copy =18009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 18 10
+
+vflag_file = 18 vflag_func = 10 vflag_copy =18010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 18 11
+
+vflag_file = 18 vflag_func = 11 vflag_copy =18011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 18 12
+
+vflag_file = 18 vflag_func = 12 vflag_copy =18012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 18 13
+
+vflag_file = 18 vflag_func = 13 vflag_copy =18013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 18 14
+
+vflag_file = 18 vflag_func = 14 vflag_copy =18014  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 18 15
+
+vflag_file = 18 vflag_func = 15 vflag_copy =18015  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 19 1
+
+vflag_file = 19 vflag_func = 1 vflag_copy =19001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 19 2
+
+vflag_file = 19 vflag_func = 2 vflag_copy =19002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 19 3
+
+vflag_file = 19 vflag_func = 3 vflag_copy =19003  
+a 
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 19 4
+
+vflag_file = 19 vflag_func = 4 vflag_copy =19004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 19 5
+
+vflag_file = 19 vflag_func = 5 vflag_copy =19005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 19 6
+
+vflag_file = 19 vflag_func = 6 vflag_copy =19006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 19 7
+
+vflag_file = 19 vflag_func = 7 vflag_copy =19007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 19 8
+
+vflag_file = 19 vflag_func = 8 vflag_copy =19008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 19 9
+
+vflag_file = 19 vflag_func = 9 vflag_copy =19009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 19 10
+
+vflag_file = 19 vflag_func = 10 vflag_copy =19010  
+TEST STRING 
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 19 11
+
+vflag_file = 19 vflag_func = 11 vflag_copy =19011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 19 12
+
+vflag_file = 19 vflag_func = 12 vflag_copy =19012  
+APrinted from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 19 13
+
+vflag_file = 19 vflag_func = 13 vflag_copy =19013  
+STRING#Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 19 14
+
+vflag_file = 19 vflag_func = 14 vflag_copy =19014  
+APrinted from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 19 15
+
+vflag_file = 19 vflag_func = 15 vflag_copy =19015  
+TEST 
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 19 16
+
+vflag_file = 19 vflag_func = 16 vflag_copy =19016  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 21 1
+
+vflag_file = 21 vflag_func = 1 vflag_copy =21001  
+00 
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 21 2
+
+vflag_file = 21 vflag_func = 2 vflag_copy =21002  
+00 
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 21 3
+
+vflag_file = 21 vflag_func = 3 vflag_copy =21003  
+00102030405060708090Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 21 4
+
+vflag_file = 21 vflag_func = 4 vflag_copy =21004  
+102030405060708090100 
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 22 1
+
+vflag_file = 22 vflag_func = 1 vflag_copy =22001  
+1804289381Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 23 1
+
+vflag_file = 23 vflag_func = 1 vflag_copy =23001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 23 2
+
+vflag_file = 23 vflag_func = 2 vflag_copy =23002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 23 3
+
+vflag_file = 23 vflag_func = 3 vflag_copy =23003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 23 4
+
+vflag_file = 23 vflag_func = 4 vflag_copy =23004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 23 5
+
+vflag_file = 23 vflag_func = 5 vflag_copy =23005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 23 6
+
+vflag_file = 23 vflag_func = 6 vflag_copy =23006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 24 1
+
+vflag_file = 24 vflag_func = 1 vflag_copy =24001  
+10Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 24 2
+
+vflag_file = 24 vflag_func = 2 vflag_copy =24002  
+10.500000Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 24 3
+
+vflag_file = 24 vflag_func = 3 vflag_copy =24003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 24 4
+
+vflag_file = 24 vflag_func = 4 vflag_copy =24004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 24 5
+
+vflag_file = 24 vflag_func = 5 vflag_copy =24005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 24 6
+
+vflag_file = 24 vflag_func = 6 vflag_copy =24006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 24 7
+
+vflag_file = 24 vflag_func = 7 vflag_copy =24007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 24 8
+
+vflag_file = 24 vflag_func = 8 vflag_copy =24008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 24 9
+
+vflag_file = 24 vflag_func = 9 vflag_copy =24009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 24 10
+
+vflag_file = 24 vflag_func = 10 vflag_copy =24010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 24 11
+
+vflag_file = 24 vflag_func = 11 vflag_copy =24011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 24 12
+
+vflag_file = 24 vflag_func = 12 vflag_copy =24012  
+10Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 24 13
+
+vflag_file = 24 vflag_func = 13 vflag_copy =24013  
+10Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 24 14
+
+vflag_file = 24 vflag_func = 14 vflag_copy =24014  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 24 15
+
+vflag_file = 24 vflag_func = 15 vflag_copy =24015  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 24 16
+
+vflag_file = 24 vflag_func = 16 vflag_copy =24016  
+invalid gbl= STRING00  
+invalid str= STRING00  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 24 17
+
+vflag_file = 24 vflag_func = 17 vflag_copy =24017  
+invalid gbl= TEST  
+invalid str= TEST  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 25 1
+
+vflag_file = 25 vflag_func = 1 vflag_copy =25001  
+16843009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 25 2
+
+vflag_file = 25 vflag_func = 2 vflag_copy =25002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 25 3
+
+vflag_file = 25 vflag_func = 3 vflag_copy =25003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 25 4
+
+vflag_file = 25 vflag_func = 4 vflag_copy =25004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 25 5
+
+vflag_file = 25 vflag_func = 5 vflag_copy =25005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 25 6
+
+vflag_file = 25 vflag_func = 6 vflag_copy =25006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 25 7
+
+vflag_file = 25 vflag_func = 7 vflag_copy =25007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 25 8
+
+littlemem_st.c:228:36: runtime error: member access within null pointer of type 'littlemem_st_007_s_001' 
+ 
+
+Confirmed as False Positive 
+
+UBSan being tested on 02.wo_Defects 25 9
+
+littlemem_st.c:272:36: runtime error: member access within null pointer of type 'littlemem_st_007_s_001' 
+ 
+
+Confirmed as False Positive 
+
+UBSan being tested on 02.wo_Defects 25 10
+
+littlemem_st.c:307:35: runtime error: member access within null pointer of type 'littlemem_st_007_s_001' 
+ 
+
+Confirmed as False Positive 
+
+UBSan being tested on 02.wo_Defects 25 11
+
+littlemem_st.c:343:35: runtime error: member access within null pointer of type 'littlemem_st_007_s_001' 
+ 
+
+Confirmed as False Positive 
+
+UBSan being tested on 02.wo_Defects 27 1
+
+vflag_file = 27 vflag_func = 1 vflag_copy =27001  
+Task1! Lock Never Unlock, threadID# 140389648484096! gbl1 = 1  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 27 2
+
+vflag_file = 27 vflag_func = 2 vflag_copy =27002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 27 3
+
+vflag_file = 27 vflag_func = 3 vflag_copy =27003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 27 4
+
+vflag_file = 27 vflag_func = 4 vflag_copy =27004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 27 5
+
+vflag_file = 27 vflag_func = 5 vflag_copy =27005  
+Task5! Lock Never Unlock, threadID# 139719569721088! gbl5 = 5  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 27 6
+
+vflag_file = 27 vflag_func = 6 vflag_copy =27006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 27 7
+
+vflag_file = 27 vflag_func = 7 vflag_copy =27007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 27 8
+
+vflag_file = 27 vflag_func = 8 vflag_copy =27008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 27 9
+
+vflag_file = 27 vflag_func = 9 vflag_copy =27009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 28 1
+
+vflag_file = 28 vflag_func = 1 vflag_copy =28001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 28 2
+
+vflag_file = 28 vflag_func = 2 vflag_copy =28002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 28 3
+
+vflag_file = 28 vflag_func = 3 vflag_copy =28003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 28 4
+
+vflag_file = 28 vflag_func = 4 vflag_copy =28004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 28 5
+
+vflag_file = 28 vflag_func = 5 vflag_copy =28005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 28 6
+
+vflag_file = 28 vflag_func = 6 vflag_copy =28006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 28 7
+
+vflag_file = 28 vflag_func = 7 vflag_copy =28007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 28 8
+
+vflag_file = 28 vflag_func = 8 vflag_copy =28008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 28 9
+
+vflag_file = 28 vflag_func = 9 vflag_copy =28009  
+String Test123Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 28 10
+
+vflag_file = 28 vflag_func = 10 vflag_copy =28010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 28 11
+
+vflag_file = 28 vflag_func = 11 vflag_copy =28011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 28 12
+
+vflag_file = 28 vflag_func = 12 vflag_copy =28012  
+0Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 28 13
+
+vflag_file = 28 vflag_func = 13 vflag_copy =28013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 28 14
+
+vflag_file = 28 vflag_func = 14 vflag_copy =28014  
+0 10.500000Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 28 15
+
+vflag_file = 28 vflag_func = 15 vflag_copy =28015  
+1Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 28 16
+
+vflag_file = 28 vflag_func = 16 vflag_copy =28016  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 29 1
+
+vflag_file = 29 vflag_func = 1 vflag_copy =29001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 29 2
+
+vflag_file = 29 vflag_func = 2 vflag_copy =29002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 29 3
+
+vflag_file = 29 vflag_func = 3 vflag_copy =29003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 29 4
+
+vflag_file = 29 vflag_func = 4 vflag_copy =29004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 29 5
+
+vflag_file = 29 vflag_func = 5 vflag_copy =29005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 29 6
+
+vflag_file = 29 vflag_func = 6 vflag_copy =29006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 29 7
+
+vflag_file = 29 vflag_func = 7 vflag_copy =29007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 29 8
+
+vflag_file = 29 vflag_func = 8 vflag_copy =29008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 29 9
+
+vflag_file = 29 vflag_func = 9 vflag_copy =29009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 29 10
+
+vflag_file = 29 vflag_func = 10 vflag_copy =29010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 29 11
+
+vflag_file = 29 vflag_func = 11 vflag_copy =29011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 29 12
+
+vflag_file = 29 vflag_func = 12 vflag_copy =29012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 29 13
+
+vflag_file = 29 vflag_func = 13 vflag_copy =29013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 29 14
+
+vflag_file = 29 vflag_func = 14 vflag_copy =29014  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 29 15
+
+vflag_file = 29 vflag_func = 15 vflag_copy =29015  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 29 16
+
+vflag_file = 29 vflag_func = 16 vflag_copy =29016  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 29 17
+
+vflag_file = 29 vflag_func = 17 vflag_copy =29017  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 29 18
+
+vflag_file = 29 vflag_func = 18 vflag_copy =29018  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 30 1
+
+vflag_file = 30 vflag_func = 1 vflag_copy =30001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 30 2
+
+vflag_file = 30 vflag_func = 2 vflag_copy =30002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 30 3
+
+vflag_file = 30 vflag_func = 3 vflag_copy =30003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 30 4
+
+vflag_file = 30 vflag_func = 4 vflag_copy =30004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 31 1
+
+vflag_file = 31 vflag_func = 1 vflag_copy =31001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 31 2
+
+vflag_file = 31 vflag_func = 2 vflag_copy =31002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 31 3
+
+vflag_file = 31 vflag_func = 3 vflag_copy =31003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 31 4
+
+vflag_file = 31 vflag_func = 4 vflag_copy =31004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 31 5
+
+vflag_file = 31 vflag_func = 5 vflag_copy =31005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 31 6
+
+vflag_file = 31 vflag_func = 6 vflag_copy =31006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 31 7
+
+vflag_file = 31 vflag_func = 7 vflag_copy =31007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 31 8
+
+vflag_file = 31 vflag_func = 8 vflag_copy =31008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 31 9
+
+vflag_file = 31 vflag_func = 9 vflag_copy =31009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 31 10
+
+vflag_file = 31 vflag_func = 10 vflag_copy =31010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 31 11
+
+vflag_file = 31 vflag_func = 11 vflag_copy =31011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 31 12
+
+vflag_file = 31 vflag_func = 12 vflag_copy =31012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 31 13
+
+vflag_file = 31 vflag_func = 13 vflag_copy =31013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 31 14
+
+vflag_file = 31 vflag_func = 14 vflag_copy =31014  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 31 15
+
+vflag_file = 31 vflag_func = 15 vflag_copy =31015  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 31 17
+
+vflag_file = 31 vflag_func = 17 vflag_copy =31017  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 1
+
+vflag_file = 32 vflag_func = 1 vflag_copy =32001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 2
+
+vflag_file = 32 vflag_func = 2 vflag_copy =32002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 3
+
+vflag_file = 32 vflag_func = 3 vflag_copy =32003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 4
+
+vflag_file = 32 vflag_func = 4 vflag_copy =32004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 5
+
+vflag_file = 32 vflag_func = 5 vflag_copy =32005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 6
+
+vflag_file = 32 vflag_func = 6 vflag_copy =32006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 7
+
+vflag_file = 32 vflag_func = 7 vflag_copy =32007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 8
+
+vflag_file = 32 vflag_func = 8 vflag_copy =32008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 9
+
+vflag_file = 32 vflag_func = 9 vflag_copy =32009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 10
+
+vflag_file = 32 vflag_func = 10 vflag_copy =32010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 11
+
+vflag_file = 32 vflag_func = 11 vflag_copy =32011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 12
+
+vflag_file = 32 vflag_func = 12 vflag_copy =32012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 13
+
+vflag_file = 32 vflag_func = 13 vflag_copy =32013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 14
+
+vflag_file = 32 vflag_func = 14 vflag_copy =32014  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 15
+
+vflag_file = 32 vflag_func = 15 vflag_copy =32015  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 16
+
+vflag_file = 32 vflag_func = 16 vflag_copy =32016  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 17
+
+vflag_file = 32 vflag_func = 17 vflag_copy =32017  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 18
+
+vflag_file = 32 vflag_func = 18 vflag_copy =32018  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 19
+
+vflag_file = 32 vflag_func = 19 vflag_copy =32019  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 20
+
+vflag_file = 32 vflag_func = 20 vflag_copy =32020  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 21
+
+vflag_file = 32 vflag_func = 21 vflag_copy =32021  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 22
+
+vflag_file = 32 vflag_func = 22 vflag_copy =32022  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 23
+
+vflag_file = 32 vflag_func = 23 vflag_copy =32023  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 24
+
+vflag_file = 32 vflag_func = 24 vflag_copy =32024  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 25
+
+vflag_file = 32 vflag_func = 25 vflag_copy =32025  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 26
+
+vflag_file = 32 vflag_func = 26 vflag_copy =32026  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 27
+
+vflag_file = 32 vflag_func = 27 vflag_copy =32027  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 28
+
+vflag_file = 32 vflag_func = 28 vflag_copy =32028  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 29
+
+vflag_file = 32 vflag_func = 29 vflag_copy =32029  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 30
+
+vflag_file = 32 vflag_func = 30 vflag_copy =32030  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 31
+
+vflag_file = 32 vflag_func = 31 vflag_copy =32031  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 32
+
+vflag_file = 32 vflag_func = 32 vflag_copy =32032  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 33
+
+vflag_file = 32 vflag_func = 33 vflag_copy =32033  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 34
+
+vflag_file = 32 vflag_func = 34 vflag_copy =32034  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 35
+
+vflag_file = 32 vflag_func = 35 vflag_copy =32035  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 36
+
+vflag_file = 32 vflag_func = 36 vflag_copy =32036  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 37
+
+vflag_file = 32 vflag_func = 37 vflag_copy =32037  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 38
+
+vflag_file = 32 vflag_func = 38 vflag_copy =32038  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 39
+
+vflag_file = 32 vflag_func = 39 vflag_copy =32039  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 40
+
+vflag_file = 32 vflag_func = 40 vflag_copy =32040  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 41
+
+vflag_file = 32 vflag_func = 41 vflag_copy =32041  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 42
+
+vflag_file = 32 vflag_func = 42 vflag_copy =32042  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 43
+
+vflag_file = 32 vflag_func = 43 vflag_copy =32043  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 44
+
+vflag_file = 32 vflag_func = 44 vflag_copy =32044  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 45
+
+vflag_file = 32 vflag_func = 45 vflag_copy =32045  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 46
+
+vflag_file = 32 vflag_func = 46 vflag_copy =32046  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 47
+
+vflag_file = 32 vflag_func = 47 vflag_copy =32047  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 48
+
+vflag_file = 32 vflag_func = 48 vflag_copy =32048  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 49
+
+vflag_file = 32 vflag_func = 49 vflag_copy =32049  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 50
+
+vflag_file = 32 vflag_func = 50 vflag_copy =32050  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 51
+
+vflag_file = 32 vflag_func = 51 vflag_copy =32051  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 52
+
+vflag_file = 32 vflag_func = 52 vflag_copy =32052  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 53
+
+vflag_file = 32 vflag_func = 53 vflag_copy =32053  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 32 54
+
+vflag_file = 32 vflag_func = 54 vflag_copy =32054  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 33 1
+
+vflag_file = 33 vflag_func = 1 vflag_copy =33001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 33 2
+
+vflag_file = 33 vflag_func = 2 vflag_copy =33002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 35 1
+
+vflag_file = 35 vflag_func = 1 vflag_copy =35001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 35 2
+
+vflag_file = 35 vflag_func = 2 vflag_copy =35002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 36 1
+
+vflag_file = 36 vflag_func = 1 vflag_copy =36001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 36 2
+
+vflag_file = 36 vflag_func = 2 vflag_copy =36002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 36 3
+
+vflag_file = 36 vflag_func = 3 vflag_copy =36003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 36 4
+
+vflag_file = 36 vflag_func = 4 vflag_copy =36004  
+Task1! Lock Never Unlock, threadID# 140232842524416! gbl1 = 1  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 36 5
+
+vflag_file = 36 vflag_func = 5 vflag_copy =36005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 36 6
+
+vflag_file = 36 vflag_func = 6 vflag_copy =36006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 36 7
+
+vflag_file = 36 vflag_func = 7 vflag_copy =36007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 36 8
+
+vflag_file = 36 vflag_func = 8 vflag_copy =36008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 37 1
+
+vflag_file = 37 vflag_func = 1 vflag_copy =37001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 37 2
+
+vflag_file = 37 vflag_func = 2 vflag_copy =37002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 37 3
+
+vflag_file = 37 vflag_func = 3 vflag_copy =37003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 37 4
+
+vflag_file = 37 vflag_func = 4 vflag_copy =37004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 37 5
+
+vflag_file = 37 vflag_func = 5 vflag_copy =37005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 37 6
+
+vflag_file = 37 vflag_func = 6 vflag_copy =37006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 37 7
+
+vflag_file = 37 vflag_func = 7 vflag_copy =37007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 37 8
+
+vflag_file = 37 vflag_func = 8 vflag_copy =37008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 37 9
+
+vflag_file = 37 vflag_func = 9 vflag_copy =37009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 37 10
+
+vflag_file = 37 vflag_func = 10 vflag_copy =37010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 37 11
+
+vflag_file = 37 vflag_func = 11 vflag_copy =37011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 37 12
+
+vflag_file = 37 vflag_func = 12 vflag_copy =37012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 37 13
+
+vflag_file = 37 vflag_func = 13 vflag_copy =37013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 37 14
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 38 1
+
+vflag_file = 38 vflag_func = 1 vflag_copy =38001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 38 2
+
+vflag_file = 38 vflag_func = 2 vflag_copy =38002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 39 1
+
+vflag_file = 39 vflag_func = 1 vflag_copy =39001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 39 2
+
+vflag_file = 39 vflag_func = 2 vflag_copy =39002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 39 3
+
+vflag_file = 39 vflag_func = 3 vflag_copy =39003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 39 4
+
+vflag_file = 39 vflag_func = 4 vflag_copy =39004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 39 5
+
+vflag_file = 39 vflag_func = 5 vflag_copy =39005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 39 6
+
+vflag_file = 39 vflag_func = 6 vflag_copy =39006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 39 7
+
+vflag_file = 39 vflag_func = 7 vflag_copy =39007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 39 8
+
+vflag_file = 39 vflag_func = 8 vflag_copy =39008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 39 9
+
+vflag_file = 39 vflag_func = 9 vflag_copy =39009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 39 10
+
+vflag_file = 39 vflag_func = 10 vflag_copy =39010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 39 11
+
+vflag_file = 39 vflag_func = 11 vflag_copy =39011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 39 12
+
+vflag_file = 39 vflag_func = 12 vflag_copy =39012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 39 13
+
+vflag_file = 39 vflag_func = 13 vflag_copy =39013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 39 14
+
+vflag_file = 39 vflag_func = 14 vflag_copy =39014  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 39 15
+
+vflag_file = 39 vflag_func = 15 vflag_copy =39015  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 39 16
+
+vflag_file = 39 vflag_func = 16 vflag_copy =39016  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 39 17
+
+vflag_file = 39 vflag_func = 17 vflag_copy =39017  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 39 18
+
+vflag_file = 39 vflag_func = 18 vflag_copy =39018  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 39 19
+
+vflag_file = 39 vflag_func = 19 vflag_copy =39019  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 40 1
+
+vflag_file = 40 vflag_func = 1 vflag_copy =40001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 40 2
+
+vflag_file = 40 vflag_func = 2 vflag_copy =40002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 40 3
+
+vflag_file = 40 vflag_func = 3 vflag_copy =40003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 41 1
+
+vflag_file = 41 vflag_func = 1 vflag_copy =41001  
+Task1! Cross thread stack access, threadID# 140016281712384! thread no = THREAD1 200 
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 41 2
+
+vflag_file = 41 vflag_func = 2 vflag_copy =41002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 41 3
+
+vflag_file = 41 vflag_func = 3 vflag_copy =41003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 41 4
+
+vflag_file = 41 vflag_func = 4 vflag_copy =41004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 41 5
+
+ 
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 41 6
+
+vflag_file = 41 vflag_func = 6 vflag_copy =41006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 42 1
+
+vflag_file = 42 vflag_func = 1 vflag_copy =42001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 42 2
+
+vflag_file = 42 vflag_func = 2 vflag_copy =42002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 42 3
+
+vflag_file = 42 vflag_func = 3 vflag_copy =42003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 42 4
+
+vflag_file = 42 vflag_func = 4 vflag_copy =42004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 42 5
+
+vflag_file = 42 vflag_func = 5 vflag_copy =42005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 42 6
+
+vflag_file = 42 vflag_func = 6 vflag_copy =42006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 42 7
+
+vflag_file = 42 vflag_func = 7 vflag_copy =42007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 43 1
+
+vflag_file = 43 vflag_func = 1 vflag_copy =43001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 43 2
+
+vflag_file = 43 vflag_func = 2 vflag_copy =43002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 43 3
+
+vflag_file = 43 vflag_func = 3 vflag_copy =43003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 43 4
+
+vflag_file = 43 vflag_func = 4 vflag_copy =43004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 43 5
+
+vflag_file = 43 vflag_func = 5 vflag_copy =43005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 43 6
+
+vflag_file = 43 vflag_func = 6 vflag_copy =43006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 43 7
+
+vflag_file = 43 vflag_func = 7 vflag_copy =43007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 44 1
+
+vflag_file = 44 vflag_func = 1 vflag_copy =44001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 44 2
+
+vflag_file = 44 vflag_func = 2 vflag_copy =44002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 44 3
+
+vflag_file = 44 vflag_func = 3 vflag_copy =44003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 44 4
+
+vflag_file = 44 vflag_func = 4 vflag_copy =44004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 44 5
+
+vflag_file = 44 vflag_func = 5 vflag_copy =44005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 44 6
+
+vflag_file = 44 vflag_func = 6 vflag_copy =44006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 44 7
+
+vflag_file = 44 vflag_func = 7 vflag_copy =44007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 44 8
+
+vflag_file = 44 vflag_func = 8 vflag_copy =44008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 44 9
+
+vflag_file = 44 vflag_func = 9 vflag_copy =44009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 44 10
+
+vflag_file = 44 vflag_func = 10 vflag_copy =44010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 44 11
+
+vflag_file = 44 vflag_func = 11 vflag_copy =44011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 44 12
+
+vflag_file = 44 vflag_func = 12 vflag_copy =44012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 44 13
+
+vflag_file = 44 vflag_func = 13 vflag_copy =44013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 45 1
+
+vflag_file = 45 vflag_func = 1 vflag_copy =45001  
+10 Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 45 2
+
+vflag_file = 45 vflag_func = 2 vflag_copy =45002  
+10.000000 Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 45 3
+
+vflag_file = 45 vflag_func = 3 vflag_copy =45003  
+THIS IS STRING THIS IS STRING 
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 45 4
+
+vflag_file = 45 vflag_func = 4 vflag_copy =45004  
+20  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 45 5
+
+vflag_file = 45 vflag_func = 5 vflag_copy =45005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 45 6
+
+vflag_file = 45 vflag_func = 6 vflag_copy =45006  
+STRING 
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 45 7
+
+vflag_file = 45 vflag_func = 7 vflag_copy =45007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 45 8
+
+vflag_file = 45 vflag_func = 8 vflag_copy =45008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 45 9
+
+vflag_file = 45 vflag_func = 9 vflag_copy =45009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 45 10
+
+vflag_file = 45 vflag_func = 10 vflag_copy =45010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 45 11
+
+vflag_file = 45 vflag_func = 11 vflag_copy =45011  
+ test Error: STRING 
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 45 12
+
+vflag_file = 45 vflag_func = 12 vflag_copy =45012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 45 13
+
+vflag_file = 45 vflag_func = 13 vflag_copy =45013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 45 14
+
+vflag_file = 45 vflag_func = 14 vflag_copy =45014  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 45 15
+
+vflag_file = 45 vflag_func = 15 vflag_copy =45015  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 46 1
+
+vflag_file = 46 vflag_func = 1 vflag_copy =46001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 46 2
+
+vflag_file = 46 vflag_func = 2 vflag_copy =46002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 46 3
+
+vflag_file = 46 vflag_func = 3 vflag_copy =46003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 46 4
+
+vflag_file = 46 vflag_func = 4 vflag_copy =46004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 46 5
+
+vflag_file = 46 vflag_func = 5 vflag_copy =46005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 46 6
+
+vflag_file = 46 vflag_func = 6 vflag_copy =46006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 46 7
+
+vflag_file = 46 vflag_func = 7 vflag_copy =46007  
+uninit a  
+uninit a  
+uninit a  
+uninit a  
+uninit a  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 46 8
+
+vflag_file = 46 vflag_func = 8 vflag_copy =46008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 46 9
+
+vflag_file = 46 vflag_func = 9 vflag_copy =46009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 46 10
+
+vflag_file = 46 vflag_func = 10 vflag_copy =46010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 46 11
+
+vflag_file = 46 vflag_func = 11 vflag_copy =46011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 46 12
+
+vflag_file = 46 vflag_func = 12 vflag_copy =46012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 46 13
+
+vflag_file = 46 vflag_func = 13 vflag_copy =46013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 46 14
+
+vflag_file = 46 vflag_func = 14 vflag_copy =46014  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 46 15
+
+vflag_file = 46 vflag_func = 15 vflag_copy =46015  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 46 16
+
+vflag_file = 46 vflag_func = 16 vflag_copy =46016  
+unint p STRING00  
+unint p STRING00  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 47 1
+
+vflag_file = 47 vflag_func = 1 vflag_copy =47001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 47 2
+
+vflag_file = 47 vflag_func = 2 vflag_copy =47002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 47 3
+
+vflag_file = 47 vflag_func = 3 vflag_copy =47003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 47 4
+
+vflag_file = 47 vflag_func = 4 vflag_copy =47004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 47 5
+
+vflag_file = 47 vflag_func = 5 vflag_copy =47005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 47 6
+
+vflag_file = 47 vflag_func = 6 vflag_copy =47006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 47 7
+
+vflag_file = 47 vflag_func = 7 vflag_copy =47007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 47 8
+
+vflag_file = 47 vflag_func = 8 vflag_copy =47008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 47 9
+
+vflag_file = 47 vflag_func = 9 vflag_copy =47009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 47 10
+
+vflag_file = 47 vflag_func = 10 vflag_copy =47010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 47 11
+
+vflag_file = 47 vflag_func = 11 vflag_copy =47011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 47 12
+
+vflag_file = 47 vflag_func = 12 vflag_copy =47012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 47 13
+
+vflag_file = 47 vflag_func = 13 vflag_copy =47013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 47 14
+
+vflag_file = 47 vflag_func = 14 vflag_copy =47014  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 47 15
+
+vflag_file = 47 vflag_func = 15 vflag_copy =47015  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 48 1
+
+vflag_file = 48 vflag_func = 1 vflag_copy =48001  
+Task1! Unlock without Lock, threadID# 140301342103296! thread no = THREAD2  
+Task1! Unlock without Lock, threadID# 140301350496000! thread no = THREAD1  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 48 2
+
+vflag_file = 48 vflag_func = 2 vflag_copy =48002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 48 3
+
+vflag_file = 48 vflag_func = 3 vflag_copy =48003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 48 4
+
+vflag_file = 48 vflag_func = 4 vflag_copy =48004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 48 5
+
+vflag_file = 48 vflag_func = 5 vflag_copy =48005  
+Task5! Unlock without Lock, threadID# 140256476239616! gbl5 = 5  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 48 6
+
+vflag_file = 48 vflag_func = 6 vflag_copy =48006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 48 7
+
+vflag_file = 48 vflag_func = 7 vflag_copy =48007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 48 8
+
+vflag_file = 48 vflag_func = 8 vflag_copy =48008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 49 1
+
+vflag_file = 49 vflag_func = 1 vflag_copy =49001  
+3Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 49 2
+
+vflag_file = 49 vflag_func = 2 vflag_copy =49002  
+3Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 49 3
+
+vflag_file = 49 vflag_func = 3 vflag_copy =49003  
+3Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 49 4
+
+vflag_file = 49 vflag_func = 4 vflag_copy =49004  
+3Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 49 5
+
+vflag_file = 49 vflag_func = 5 vflag_copy =49005  
+3Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 49 6
+
+vflag_file = 49 vflag_func = 6 vflag_copy =49006  
+3Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 49 7
+
+vflag_file = 49 vflag_func = 7 vflag_copy =49007  
+3Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 50 1
+
+vflag_file = 50 vflag_func = 1 vflag_copy =50001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 50 2
+
+vflag_file = 50 vflag_func = 2 vflag_copy =50002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 50 3
+
+vflag_file = 50 vflag_func = 3 vflag_copy =50003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 50 4
+
+vflag_file = 50 vflag_func = 4 vflag_copy =50004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 50 5
+
+vflag_file = 50 vflag_func = 5 vflag_copy =50005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 50 6
+
+vflag_file = 50 vflag_func = 6 vflag_copy =50006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 50 7
+
+vflag_file = 50 vflag_func = 7 vflag_copy =50007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 50 8
+
+vflag_file = 50 vflag_func = 8 vflag_copy =50008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 50 9
+
+vflag_file = 50 vflag_func = 9 vflag_copy =50009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 50 10
+
+vflag_file = 50 vflag_func = 10 vflag_copy =50010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 50 11
+
+vflag_file = 50 vflag_func = 11 vflag_copy =50011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 50 12
+
+vflag_file = 50 vflag_func = 12 vflag_copy =50012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 50 13
+
+vflag_file = 50 vflag_func = 13 vflag_copy =50013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 50 14
+
+vflag_file = 50 vflag_func = 14 vflag_copy =50014  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 50 15
+
+vflag_file = 50 vflag_func = 15 vflag_copy =50015  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 50 16
+
+vflag_file = 50 vflag_func = 16 vflag_copy =50016  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 50 17
+
+vflag_file = 50 vflag_func = 17 vflag_copy =50017  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 50 18
+
+vflag_file = 50 vflag_func = 18 vflag_copy =50018  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 51 1
+
+vflag_file = 51 vflag_func = 1 vflag_copy =51001  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 51 2
+
+vflag_file = 51 vflag_func = 2 vflag_copy =51002  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 51 3
+
+vflag_file = 51 vflag_func = 3 vflag_copy =51003  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 51 4
+
+vflag_file = 51 vflag_func = 4 vflag_copy =51004  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 51 5
+
+vflag_file = 51 vflag_func = 5 vflag_copy =51005  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 51 6
+
+vflag_file = 51 vflag_func = 6 vflag_copy =51006  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 51 7
+
+vflag_file = 51 vflag_func = 7 vflag_copy =51007  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 51 8
+
+vflag_file = 51 vflag_func = 8 vflag_copy =51008  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 51 9
+
+vflag_file = 51 vflag_func = 9 vflag_copy =51009  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 51 10
+
+vflag_file = 51 vflag_func = 10 vflag_copy =51010  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 51 11
+
+vflag_file = 51 vflag_func = 11 vflag_copy =51011  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 51 12
+
+vflag_file = 51 vflag_func = 12 vflag_copy =51012  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 51 13
+
+vflag_file = 51 vflag_func = 13 vflag_copy =51013  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 51 14
+
+vflag_file = 51 vflag_func = 14 vflag_copy =51014  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 51 15
+
+vflag_file = 51 vflag_func = 15 vflag_copy =51015  
+Printed from main function  
+
+Confirmed Negative 
+
+UBSan being tested on 02.wo_Defects 51 16
+
+vflag_file = 51 vflag_func = 16 vflag_copy =51016  
+Printed from main function  
+
+Confirmed Negative 
+

@@ -2,7 +2,7 @@ The [SV-benhmark](https://github.com/sosy-lab/sv-benchmarks/tree/master/c) consi
 
 We observed that 188 programs (14 %) of the programs exhibited undefined behaviors. Upon further analysis, we found that a large number of them exhibited undefined behaviors arising from very subtle and seemingly innocuous mistakes. For instance, every correct program in the floats-cdfpl, when after compilation with RV-Match, spat out the following error - "Indeterminate value used in an expression". This error occured since the main function in every program in ```floats-cdfpl``` declared a variable ```float IN```, and used the variable without initiazing it. 
 
-The presence of undefined behavior in these correct programs also render them unusable in their application as verification tasks for SV-COMP, as correctly verified programs cannot exhibit undefined behavior along any execution paths. For more information on the undefined behaviors we discovered with all the correct programs, please see the [results](results/) directory.
+The presence of undefined behavior in these correct programs also render them unusable in their application as verification tasks for SV-COMP, as correctly verified programs cannot exhibit undefined behavior along any execution paths. SV-COMP participants may also be able to use the results of this analysis to improve their effectiveness and accuracy. For more information on the undefined behaviors we discovered with all the correct programs, please see the [results](results/) directory.
 
 
 

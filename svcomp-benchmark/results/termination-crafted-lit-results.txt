@@ -1,0 +1,407 @@
+File CookSeeZuleger-TACAS2013-Fig1_true-termination.c
+File was well defined 
+
+File PodelskiRybalchenko-LICS2004-Fig2-TACAS2011-Fig3_true-termination.c
+File was well defined 
+
+File BrockschmidtCookFuhs-CAV2013-Fig1_true-termination.c
+File was well defined 
+
+File ChawdharyCookGulwaniSagivYang-ESOP2008-easy1_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex3.05_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-while2_true-termination.c
+File was well defined 
+
+File Masse-VMCAI2014-Fig1a_true-termination.c
+File was well defined 
+
+File GopanReps-CAV2006-Fig1a_true-termination.c.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex2.08_true-termination.c
+File was well defined 
+
+File PodelskiRybalchenko-LICS2004-Fig1_true-termination.c
+File was well defined 
+
+File ChawdharyCookGulwaniSagivYang-ESOP2008-aaron1_true-termination.c
+File was well defined 
+
+File ColonSipma-TACAS2001-Fig1_true-termination.c
+File was well defined 
+
+File NoriSharma-FSE2013-Fig8_true-termination.c
+File was well defined 
+
+File HarrisLalNoriRajamani-SAS2010-Fig3_true-termination.c
+File was well defined 
+
+File BradleyMannaSipma-ICALP2005-Fig1_true-termination.c
+File was well defined 
+
+File ChawdharyCookGulwaniSagivYang-ESOP2008-aaron2_true-termination.c
+File was well defined 
+
+File LarrazOliverasRodriguez-CarbonellRubio-FMCAD2013-Fig1_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex2.19_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-speedFails4_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-counterex1b_true-termination.c
+File was well defined 
+
+File CookSeeZuleger-TACAS2013-Fig8a_true-termination.c
+File was well defined 
+
+File ChawdharyCookGulwaniSagivYang-ESOP2008-aaron4_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-rsd_true-termination.c
+File was well defined 
+
+File PodelskiRybalchenko-VMCAI2004-Ex2_true-termination.c
+File was well defined 
+
+File LeikeHeizmann-TACAS2014-Ex1_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-ndecr_true-termination.c
+File was well defined 
+
+File GulavaniGulwani-CAV2008-Fig1c_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex2.18_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-speedpldi2_true-termination.c
+File was well defined 
+
+File CookSeeZuleger-TACAS2013-Fig8a-modified_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex2.07_true-termination.c
+File was well defined 
+
+File LeeJonesBen-Amram-POPL2001-Ex4_true-termination.c
+File was well defined 
+
+File HeizmannHoenickeLeikePodelski-ATVA2013-Fig1_true-termination.c
+File was well defined 
+
+File PodelskiRybalchenko-TACAS2011-Fig1_true-termination.c
+File was well defined 
+
+File Masse-VMCAI2014-Fig1b_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-cousot9_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-Fig1_true-termination.c
+File was well defined 
+
+File Ben-Amram-LMCS2010-Ex2.3_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex1.05_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-random2d_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Fig1_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-speedpldi4_true-termination.c
+File was well defined 
+
+File Avery-FLOPS2006-Table1_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex2.16_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex1.04_true-termination.c
+File was well defined 
+
+File BrockschmidtCookFuhs-CAV2013-Fig9a_true-termination.c
+File was well defined 
+
+File LeikeHeizmann-WST2014-Ex9_true-termination.c
+File was well defined 
+
+File KroeningSharyginaTsitovichWintersteiger-CAV2010-Fig1_true-termination.c
+File was well defined 
+
+File UrbanMine-ESOP2014-Fig3_true-termination.c
+File was well defined 
+
+File cstrspn_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex3.04_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex1.01_true-termination.c
+File was well defined 
+
+File LeikeHeizmann-TACAS2014-Fig1_true-termination.c
+File was well defined 
+
+File LeeJonesBen-Amram-POPL2001-Ex6_true-termination.c
+File was well defined 
+
+File BrockschmidtCookFuhs-CAV2013-Introduction_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex3.07_true-termination.c
+File was well defined 
+
+File LeeJonesBen-Amram-POPL2001-Ex2_true-termination.c
+File was well defined 
+
+File Masse-VMCAI2014-Ex6_true-termination.c
+File was well defined 
+
+File PodelskiRybalchenko-TACAS2011-Fig2_true-termination.c
+File was well defined 
+
+File HeizmannHoenickeLeikePodelski-ATVA2013-Fig6_true-termination.c
+File was well defined 
+
+File ChawdharyCookGulwaniSagivYang-ESOP2008-aaron6_true-termination.c
+File was well defined 
+
+File cstrcmp_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex3.09_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-aaron2_true-termination.c
+File was well defined 
+
+File CookSeeZuleger-TACAS2013-Fig7b_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex2.10_true-termination.c
+File was well defined 
+
+File LeikeHeizmann-TACAS2014-Ex9_true-termination.c
+File was well defined 
+
+File HeizmannHoenickeLeikePodelski-ATVA2013-Fig7_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-loops_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-complex_true-termination.c
+File was well defined 
+
+File ChawdharyCookGulwaniSagivYang-ESOP2008-easy2_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-counterex1a_true-termination.c
+File was well defined 
+
+File ChawdharyCookGulwaniSagivYang-ESOP2008-aaron12_true-termination.c
+File was well defined 
+
+File KroeningSharyginaTsitovichWintersteiger-CAV2010-Ex_true-termination.c
+File was well defined 
+
+File HeizmannHoenickeLeikePodelski-ATVA2013-Fig2_true-termination.c
+File was well defined 
+
+File CookSeeZuleger-TACAS2013-Fig7a_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-random1d_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-Fig2b_true-termination.c
+File was well defined 
+
+File CookSeeZuleger-TACAS2013-Fig8b_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex3.03_true-termination.c
+File was well defined 
+
+File cstrncmp_true-termination.c
+File was well defined 
+
+File gcd1_true-termination.c
+File was well defined 
+
+File GulavaniGulwani-CAV2008-Fig1a_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-wcet2_true-termination.c
+File was well defined 
+
+File cstrlen_true-termination.c
+File was well defined 
+
+File min_rf_true-termination.c
+File was well defined 
+
+File HeizmannHoenickeLeikePodelski-ATVA2013-Fig8_true-termination.c
+File was well defined 
+
+File LeeJonesBen-Amram-POPL2001-Ex5_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex2.21_true-termination.c
+File was well defined 
+
+File PodelskiRybalchenko-TACAS2011-Fig4_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex3.08_true-termination.c
+File was well defined 
+
+File LeikeHeizmann-TACAS2014-Ex7_true-termination.c
+File was well defined 
+
+File LeikeHeizmann-TACAS2014-Ex8_true-termination.c
+File was well defined 
+
+File cstrpbrk_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex2.22_true-termination.c
+File was well defined 
+
+File aviad_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex1.03_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex2.13_true-termination.c
+File was well defined 
+
+File GulwaniJainKoskinen-PLDI2009-Fig1_true-termination.c
+File was well defined 
+
+File ChawdharyCookGulwaniSagivYang-ESOP2008-aaron3_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex3.10_true-termination.c
+File was well defined 
+
+File NoriSharma-FSE2013-Fig7_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex2.09_true-termination.c
+File was well defined 
+
+File GulavaniGulwani-CAV2008-Fig1b_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-terminate_true-termination.c
+File was well defined 
+
+File BradleyMannaSipma-CAV2005-Fig1_true-termination.c
+File was well defined 
+
+File ChawdharyCookGulwaniSagivYang-ESOP2008-random2d_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-nestedLoop_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-exmini_true-termination.c
+File was well defined 
+
+File LeeJonesBen-Amram-POPL2001-Ex3_true-termination.c
+File was well defined 
+
+File HeizmannHoenickeLeikePodelski-ATVA2013-Fig4_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-wise_true-termination.c
+File was well defined 
+
+File Urban-WST2013-Fig2_true-termination.c
+File was well defined 
+
+File ChawdharyCookGulwaniSagivYang-ESOP2008-random1d_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-aaron3_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex1.02_true-termination.c
+File was well defined 
+
+File PodelskiRybalchenko-TACAS2011-Fig3_true-termination.c
+File was well defined 
+
+File Urban-WST2013-Fig2-modified1000_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-easy1_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-Fig2a_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex2.01_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-easy2_true-termination.c
+File was well defined 
+
+File strchr_true-termination.c
+File was well defined 
+
+File PodelskiRybalchenko-LICS2004-Fig2_true-termination.c
+File was well defined 
+
+File AliasDarteFeautrierGonnord-SAS2010-speedpldi3_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex2.20_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex4.01_true-termination.c
+File was well defined 
+
+File ChenFlurMukhopadhyay-SAS2012-Ex3.01_true-termination.c
+File was well defined 
+
+File cstrcspn_true-termination.c
+File was well defined 
+
+File LeeJonesBen-Amram-POPL2001-Ex1_true-termination.c
+File was well defined 
+
+File HeizmannHoenickeLeikePodelski-ATVA2013-Fig9_true-termination.c
+File was well defined 
+
+File HeizmannHoenickeLeikePodelski-ATVA2013-Fig5_true-termination.c
+File was well defined 
+
+File PodelskiRybalchenko-VMCAI2004-Ex1_true-termination.c
+File was well defined 
+
+File HarrisLalNoriRajamani-SAS2010-Fig1_true-termination.c
+File was well defined 
+
+File genady_true-termination.c
+File was well defined 
+
+Total Executables - 135
+Undefined - 0

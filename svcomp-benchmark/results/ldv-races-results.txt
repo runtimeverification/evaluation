@@ -1,0 +1,58 @@
+File race-4_1-thread_local_vars_true-unreach-call.c
+File was well defined 
+
+File race-2_1-container_of_true-unreach-call.c
+Found Undefined Behavior! 
+race-2_1-container_of_true-unreach-call.c:6:0: warning: "offsetof" redefined
+ #define offsetof(TYPE, MEMBER) ((unsigned long) &((TYPE *)0)->MEMBER)
+ ^
+In file included from /usr/include/unistd.h:226:0,
+                 from race-2_1-container_of_true-unreach-call.c:4:
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h:413:0: note: this is the location of the previous definition
+ #define offsetof(TYPE, MEMBER) __builtin_offsetof (TYPE, MEMBER)
+ ^
+File: race-2_1-container_of_true-unreach-call.c
+Line: 18
+Error: UB-CDT1
+Description: Structs must contain a named member.
+Type: Undefined behavior.
+See also: C11 sec. 6.7.2.1:8, J.2:1 item 61
+File: race-2_1-container_of_true-unreach-call.c
+Line: 36
+Error: UB-CER3
+Description: Dereferencing a null pointer.
+Type: Undefined behavior.
+See also: C11 sec. 6.5.3.2:4, J.2:1 item 43
+Translation failed (config dumped). Run kcc -d -c -Wno-implementation-defined -Wno-unspecified -include /home/manasvisaxena/sv-benchmarks/c/decls.h race-2_1-container_of_true-unreach-call.c -o race-2_1-container_of_true-unreach-call.o to see commands run.
+
+
+File race-1_1-join_true-unreach-call.c
+File was well defined 
+
+File race-3_1-container_of-global_true-unreach-call.c
+Found Undefined Behavior! 
+race-3_1-container_of-global_true-unreach-call.c:6:0: warning: "offsetof" redefined
+ #define offsetof(TYPE, MEMBER) ((unsigned long) &((TYPE *)0)->MEMBER)
+ ^
+In file included from /usr/include/unistd.h:226:0,
+                 from race-3_1-container_of-global_true-unreach-call.c:4:
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h:413:0: note: this is the location of the previous definition
+ #define offsetof(TYPE, MEMBER) __builtin_offsetof (TYPE, MEMBER)
+ ^
+File: race-3_1-container_of-global_true-unreach-call.c
+Line: 18
+Error: UB-CDT1
+Description: Structs must contain a named member.
+Type: Undefined behavior.
+See also: C11 sec. 6.7.2.1:8, J.2:1 item 61
+File: race-3_1-container_of-global_true-unreach-call.c
+Line: 37
+Error: UB-CER3
+Description: Dereferencing a null pointer.
+Type: Undefined behavior.
+See also: C11 sec. 6.5.3.2:4, J.2:1 item 43
+Translation failed (config dumped). Run kcc -d -c -Wno-implementation-defined -Wno-unspecified -include /home/manasvisaxena/sv-benchmarks/c/decls.h race-3_1-container_of-global_true-unreach-call.c -o race-3_1-container_of-global_true-unreach-call.o to see commands run.
+
+
+Total Executables - 4
+Undefined - 2

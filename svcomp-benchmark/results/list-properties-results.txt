@@ -1,0 +1,101 @@
+File simple_built_from_end_true-unreach-call.c
+File was well defined 
+
+File splice_true-unreach-call.cil.c
+Found Undefined Behavior! 
+Error: UB-CCV7
+Description: Conversion from pointer to integer of a value possibly unrepresentable in the integer type.
+Type: Undefined behavior.
+See also: C11 sec. 6.3.2.3:6, J.2:1 item 24
+  at main(splice_true-unreach-call.cil.c:78)
+  at <file-scope>(<unknown>)
+
+
+File alternating_list_true-unreach-call.c
+File was well defined 
+
+File list_search_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(list_search_true-unreach-call.c:63)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(list_search_true-unreach-call.c:64)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(list_search_true-unreach-call.c:65)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(list_search_true-unreach-call.c:66)
+  at <file-scope>(<unknown>)
+
+
+File splice_true-unreach-call.c
+File was well defined 
+
+File list_true-unreach-call.cil.c
+Found Undefined Behavior! 
+Error: UB-CCV7
+Description: Conversion from pointer to integer of a value possibly unrepresentable in the integer type.
+Type: Undefined behavior.
+See also: C11 sec. 6.3.2.3:6, J.2:1 item 24
+  at main(list_true-unreach-call.cil.c:71)
+  at <file-scope>(<unknown>)
+
+
+File simple_true-unreach-call.c
+File was well defined 
+
+File list_true-unreach-call.c
+File was well defined 
+
+File simple_true-unreach-call.cil.c
+Found Undefined Behavior! 
+Error: UB-CCV7
+Description: Conversion from pointer to integer of a value possibly unrepresentable in the integer type.
+Type: Undefined behavior.
+See also: C11 sec. 6.3.2.3:6, J.2:1 item 24
+  at main(simple_true-unreach-call.cil.c:62)
+  at <file-scope>(<unknown>)
+
+
+File list_flag_true-unreach-call.cil.c
+Found Undefined Behavior! 
+Error: UB-CCV7
+Description: Conversion from pointer to integer of a value possibly unrepresentable in the integer type.
+Type: Undefined behavior.
+See also: C11 sec. 6.3.2.3:6, J.2:1 item 24
+  at main(list_flag_true-unreach-call.cil.c:61)
+  at <file-scope>(<unknown>)
+
+
+File list_flag_true-unreach-call.c
+File was well defined 
+
+File simple_built_from_end_true-unreach-call.cil.c
+File was well defined 
+
+File alternating_list_true-unreach-call.cil.c
+Found Undefined Behavior! 
+Error: UB-CCV7
+Description: Conversion from pointer to integer of a value possibly unrepresentable in the integer type.
+Type: Undefined behavior.
+See also: C11 sec. 6.3.2.3:6, J.2:1 item 24
+  at main(alternating_list_true-unreach-call.cil.c:60)
+  at <file-scope>(<unknown>)
+
+
+Total Executables - 13
+Undefined - 6

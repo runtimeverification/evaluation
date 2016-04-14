@@ -1,0 +1,59 @@
+File recHanoi02_true-unreach-call_true-termination.c
+File was well defined 
+
+File Addition03_true-unreach-call.c
+File was well defined 
+
+File Primes_true-unreach-call.c
+File was well defined 
+
+File Fibonacci03_true-unreach-call_true-termination.c
+File was well defined 
+
+File EvenOdd01_true-unreach-call_true-termination.c
+File was well defined 
+
+File gcd02_true-unreach-call.c
+File was well defined 
+
+File Ackermann01_true-unreach-call.c
+File was well defined 
+
+File recHanoi03_true-unreach-call_true-termination.c
+File was well defined 
+
+File MultCommutative_true-unreach-call_true-termination.c
+File was well defined 
+
+File McCarthy91_true-unreach-call.c
+File was well defined 
+
+File recHanoi01_true-unreach-call_true-termination.c
+File was well defined 
+
+File Ackermann04_true-unreach-call.c
+File was well defined 
+
+File Fibonacci02_true-unreach-call_true-termination.c
+File was well defined 
+
+File Ackermann03_true-unreach-call.c
+File was well defined 
+
+File Fibonacci05_false-unreach-call_true-termination.c
+File was well defined 
+
+File Addition01_true-unreach-call_true-termination.c
+File was well defined 
+
+File gcd01_true-unreach-call_true-termination.c
+File was well defined 
+
+File Fibonacci01_true-unreach-call.c
+File was well defined 
+
+File Fibonacci04_false-unreach-call_true-termination.c
+File was well defined 
+
+Total Executables - 19
+Undefined - 0

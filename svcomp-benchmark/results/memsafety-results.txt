@@ -1,0 +1,72 @@
+File test-0214_true-valid-memsafety.c
+File was well defined 
+
+File test-0236_true-valid-memsafety.c
+File was well defined 
+
+File test-0219_true-valid-memsafety.c
+File was well defined 
+
+File test-0218_true-valid-memsafety.c
+File was well defined 
+
+File test-0234_true-valid-memsafety.c
+File was well defined 
+
+File test-0019_true-valid-memsafety.c
+File was well defined 
+
+File test-0235_true-valid-memsafety.c
+File was well defined 
+
+File test-0513_true-valid-memsafety.c
+File was well defined 
+
+File lockfree-3.0_true-valid-memsafety.c
+File was well defined 
+
+File test-0237_true-valid-memsafety.c
+File was well defined 
+
+File 960521-1_true-valid-memsafety.c
+File was well defined 
+
+File test-0134_true-valid-memsafety.c
+Found Undefined Behavior! 
+File: test-0134_true-valid-memsafety.c
+Line: 97
+Error: UB-CER3
+Description: Dereferencing a null pointer.
+Type: Undefined behavior.
+See also: C11 sec. 6.5.3.2:4, J.2:1 item 43
+Translation failed (config dumped). Run kcc -d -c -Wno-implementation-defined -Wno-unspecified -include /home/manasvisaxena/sv-benchmarks/c/decls.h test-0134_true-valid-memsafety.c -o test-0134_true-valid-memsafety.o to see commands run.
+
+
+File test-0102_true-valid-memsafety.c
+Found Undefined Behavior! 
+File: test-0102_true-valid-memsafety.c
+Line: 52
+Error: UB-CER3
+Description: Dereferencing a null pointer.
+Type: Undefined behavior.
+See also: C11 sec. 6.5.3.2:4, J.2:1 item 43
+Translation failed (config dumped). Run kcc -d -c -Wno-implementation-defined -Wno-unspecified -include /home/manasvisaxena/sv-benchmarks/c/decls.h test-0102_true-valid-memsafety.c -o test-0102_true-valid-memsafety.o to see commands run.
+
+
+File test-0232_true-valid-memsafety.c
+File was well defined 
+
+File test-0521_true-valid-memsafety.c
+File was well defined 
+
+File test-0217_true-valid-memsafety.c
+File was well defined 
+
+File test-0158_true-valid-memsafety.c
+File was well defined 
+
+File test-0504_true-valid-memsafety.c
+File was well defined 
+
+Total Executables - 18
+Undefined - 2

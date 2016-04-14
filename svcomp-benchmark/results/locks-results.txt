@@ -1,0 +1,35 @@
+File test_locks_15_true-unreach-call_false-termination.c
+File was well defined 
+
+File test_locks_11_true-unreach-call_false-termination.c
+File was well defined 
+
+File test_locks_13_true-unreach-call.c
+File was well defined 
+
+File test_locks_7_true-unreach-call_false-termination.c
+File was well defined 
+
+File test_locks_12_true-unreach-call_false-termination.c
+File was well defined 
+
+File test_locks_5_true-unreach-call_false-termination.c
+File was well defined 
+
+File test_locks_9_true-unreach-call.c
+File was well defined 
+
+File test_locks_8_true-unreach-call_false-termination.c
+File was well defined 
+
+File test_locks_6_true-unreach-call_false-termination.c
+File was well defined 
+
+File test_locks_14_true-unreach-call.c
+File was well defined 
+
+File test_locks_10_true-unreach-call.c
+File was well defined 
+
+Total Executables - 11
+Undefined - 0

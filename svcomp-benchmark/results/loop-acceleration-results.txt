@@ -1,0 +1,73 @@
+File multivar_true-unreach-call1.c
+File was well defined 
+
+File overflow_true-unreach-call1.c
+File was well defined 
+
+File phases_true-unreach-call2.c
+File was well defined 
+
+File array_true-unreach-call4.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(array_true-unreach-call4.c:18)
+  at <file-scope>(<unknown>)
+
+
+File simple_true-unreach-call3.c
+File was well defined 
+
+File array_true-unreach-call3.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(array_true-unreach-call3.c:16)
+  at <file-scope>(<unknown>)
+
+
+File underapprox_true-unreach-call2.c
+File was well defined 
+
+File functions_true-unreach-call1.c
+File was well defined 
+
+File const_true-unreach-call1.c
+File was well defined 
+
+File simple_true-unreach-call2.c
+File was well defined 
+
+File simple_true-unreach-call1.c
+File was well defined 
+
+File array_true-unreach-call1.c
+File was well defined 
+
+File underapprox_true-unreach-call1.c
+File was well defined 
+
+File nested_true-unreach-call1.c
+File was well defined 
+
+File phases_true-unreach-call1.c
+File was well defined 
+
+File diamond_true-unreach-call1.c
+File was well defined 
+
+File simple_true-unreach-call4.c
+File was well defined 
+
+File diamond_true-unreach-call2.c
+File was well defined 
+
+File array_true-unreach-call2.c
+File was well defined 
+
+Total Executables - 19
+Undefined - 2

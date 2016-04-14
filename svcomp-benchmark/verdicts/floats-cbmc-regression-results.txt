@@ -1,0 +1,225 @@
+File float20_true-unreach-call.c
+File was well defined 
+
+File float1_true-unreach-call.c
+File was well defined 
+
+File float8_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(float8_true-unreach-call.c:7)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(float8_true-unreach-call.c:8)
+  at <file-scope>(<unknown>)
+
+
+File float21_true-unreach-call.c
+File was well defined 
+
+File float4_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(float4_true-unreach-call.c:8)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(float4_true-unreach-call.c:9)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(float4_true-unreach-call.c:10)
+  at <file-scope>(<unknown>)
+
+
+File float_lib2_true-unreach-call.c
+File was well defined 
+
+File float-zero-sum1_true-unreach-call.c
+File was well defined 
+
+File float18_true-unreach-call.c
+File was well defined 
+
+File float-div1_true-unreach-call.c
+File was well defined 
+
+File float6_true-unreach-call.c
+File was well defined 
+
+File float-no-simp4_true-unreach-call.c
+File was well defined 
+
+File float-to-double2_true-unreach-call.c
+File was well defined 
+
+File float-no-simp8_true-unreach-call.c
+File was well defined 
+
+File float-flags-simp1_true-unreach-call.c
+Found Undefined Behavior! 
+File: float-flags-simp1_true-unreach-call.c
+Line: 58
+Error: UB-CEMX1
+Description: Division by 0.
+Type: Undefined behavior.
+See also: C11 sec. 6.5.5:5, J.2:1 item 45
+File: float-flags-simp1_true-unreach-call.c
+Line: 60
+Error: UB-CEMX1
+Description: Division by 0.
+Type: Undefined behavior.
+See also: C11 sec. 6.5.5:5, J.2:1 item 45
+
+
+File float7_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-EIO10
+Description: Type of lvalue not compatible with the effective type of the object being accessed.
+Type: Undefined behavior.
+See also: C11 sec. 6.5:7, J.2:1 item 37
+  at main(float7_true-unreach-call.c:10)
+  at <file-scope>(<unknown>)
+
+
+File float-no-simp3_true-unreach-call.c
+File was well defined 
+
+File float14_true-unreach-call.c
+Found Undefined Behavior! 
+File: float14_true-unreach-call.c
+Line: 7
+Error: UB-CCV12
+Description: Floating-point overflow.
+Type: Undefined behavior.
+See also: C11 sec. 6.5:5, J.2:1 item 36
+
+
+File float-no-simp6_true-unreach-call.c
+File was well defined 
+
+File float22_true-unreach-call.c
+Found Undefined Behavior! 
+Error: USP-CEER2
+Description: Trying to reinterpret integer bytes as floating bytes.
+Type: Unspecified value or behavior.
+See also: C11 sec. 6.2.6.1:1, J.1:1 item 9
+  at returnsField(float22_true-unreach-call.c:34)
+  at testTwo(float22_true-unreach-call.c:69)
+  at main(float22_true-unreach-call.c:90)
+  at <file-scope>(<unknown>)
+
+
+File float-to-double1_true-unreach-call.c
+File was well defined 
+
+File float2_true-unreach-call.c
+File was well defined 
+
+File float13_true-unreach-call.c
+Found Undefined Behavior! 
+File: float13_true-unreach-call.c
+Line: 3
+Error: UB-CEMX1
+Description: Division by 0.
+Type: Undefined behavior.
+See also: C11 sec. 6.5.5:5, J.2:1 item 45
+File: float13_true-unreach-call.c
+Line: 3
+Error: CV-TEAS5
+Description: Non-constant static initializer.
+Type: Constraint violation.
+See also: C11 sec. 6.7.9:4
+Translation failed (config dumped). Run kcc -d -c -Wno-implementation-defined -Wno-unspecified -include /home/manasvisaxena/sv-benchmarks/c/decls.h float13_true-unreach-call.c -o float13_true-unreach-call.o to see commands run.
+
+
+File float11_true-unreach-call.c
+File was well defined 
+
+File float3_true-unreach-call.c
+File was well defined 
+
+File float_lib1_true-unreach-call.c
+Found Undefined Behavior! 
+File: float_lib1_true-unreach-call.c
+Line: 13
+Error: UB-CCV12
+Description: Floating-point overflow.
+Type: Undefined behavior.
+See also: C11 sec. 6.5:5, J.2:1 item 36
+File: float_lib1_true-unreach-call.c
+Line: 14
+Error: UB-CCV12
+Description: Floating-point overflow.
+Type: Undefined behavior.
+See also: C11 sec. 6.5:5, J.2:1 item 36
+
+
+File float-no-simp1_true-unreach-call.c
+File was well defined 
+
+File float-no-simp7_true-unreach-call.c
+File was well defined 
+
+File float19_true-unreach-call.c
+File was well defined 
+
+File float12_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(float12_true-unreach-call.c:8)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(float12_true-unreach-call.c:10)
+  at <file-scope>(<unknown>)
+
+
+File float5_true-unreach-call.c
+File was well defined 
+
+File float-no-simp2_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(float-no-simp2_true-unreach-call.c:8)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(float-no-simp2_true-unreach-call.c:9)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(float-no-simp2_true-unreach-call.c:10)
+  at <file-scope>(<unknown>)
+
+
+File float-rounding1_true-unreach-call.c
+File was well defined 
+
+Total Executables - 32
+Undefined - 10

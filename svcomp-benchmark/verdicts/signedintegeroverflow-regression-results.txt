@@ -1,0 +1,25 @@
+File NoNegativeIntegerConstant_true-no-overflow.c
+File was well defined 
+
+File IntegerPromotion_true-no-overflow.c
+Found Undefined Behavior! 
+Error: UB-STDIO1
+Description: 'printf': Mismatch between the type expected by the conversion specifier %u and the type of the argument.
+Type: Undefined behavior.
+See also: C11 sec. 7.21.6.1:9, J.2:1 item 153
+  at printf(IntegerPromotion_true-no-overflow.c:16)
+  at main(IntegerPromotion_true-no-overflow.c:16)
+  at <file-scope>(<unknown>)
+
+
+File ConversionToSignedInt_true-no-overflow.c
+File was well defined 
+
+File UsualArithmeticConversions_true-no-overflow.c
+File was well defined 
+
+File Multiplication_true-no-overflow.c
+File was well defined 
+
+Total Executables - 5
+Undefined - 1

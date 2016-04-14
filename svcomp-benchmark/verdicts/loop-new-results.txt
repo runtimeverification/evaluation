@@ -1,0 +1,26 @@
+File gauss_sum_true-unreach-call.c
+File was well defined 
+
+File count_by_1_true-unreach-call.c
+File was well defined 
+
+File half_true-unreach-call.c
+File was well defined 
+
+File count_by_nondet_true-unreach-call.c
+File was well defined 
+
+File nested_true-unreach-call.c
+File was well defined 
+
+File count_by_1_variant_true-unreach-call.c
+File was well defined 
+
+File count_by_k_true-unreach-call.c
+File was well defined 
+
+File count_by_2_true-unreach-call.c
+File was well defined 
+
+Total Executables - 8
+Undefined - 0

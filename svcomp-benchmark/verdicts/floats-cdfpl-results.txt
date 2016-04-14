@@ -1,0 +1,370 @@
+File sine_4_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sine_4_true-unreach-call.c:29)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sine_4_true-unreach-call.c:31)
+  at <file-scope>(<unknown>)
+
+
+File newton_2_5_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_2_5_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_2_5_true-unreach-call.c:45)
+  at <file-scope>(<unknown>)
+
+
+File newton_2_4_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_2_4_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_2_4_true-unreach-call.c:45)
+  at <file-scope>(<unknown>)
+
+
+File square_7_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(square_7_true-unreach-call.c:29)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(square_7_true-unreach-call.c:31)
+  at <file-scope>(<unknown>)
+
+
+File newton_1_1_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_1_1_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_1_1_true-unreach-call.c:45)
+  at <file-scope>(<unknown>)
+
+
+File square_4_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(square_4_true-unreach-call.c:29)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(square_4_true-unreach-call.c:31)
+  at <file-scope>(<unknown>)
+
+
+File newton_2_1_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_2_1_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_2_1_true-unreach-call.c:45)
+  at <file-scope>(<unknown>)
+
+
+File newton_3_5_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_3_5_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_3_5_true-unreach-call.c:45)
+  at <file-scope>(<unknown>)
+
+
+File newton_3_2_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_3_2_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_3_2_true-unreach-call.c:45)
+  at <file-scope>(<unknown>)
+
+
+File newton_1_2_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_1_2_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_1_2_true-unreach-call.c:45)
+  at <file-scope>(<unknown>)
+
+
+File sine_6_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sine_6_true-unreach-call.c:29)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sine_6_true-unreach-call.c:31)
+  at <file-scope>(<unknown>)
+
+
+File square_6_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(square_6_true-unreach-call.c:29)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(square_6_true-unreach-call.c:31)
+  at <file-scope>(<unknown>)
+
+
+File newton_3_1_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_3_1_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_3_1_true-unreach-call.c:45)
+  at <file-scope>(<unknown>)
+
+
+File sine_5_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sine_5_true-unreach-call.c:29)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sine_5_true-unreach-call.c:31)
+  at <file-scope>(<unknown>)
+
+
+File newton_1_3_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_1_3_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_1_3_true-unreach-call.c:45)
+  at <file-scope>(<unknown>)
+
+
+File newton_2_3_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_2_3_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_2_3_true-unreach-call.c:45)
+  at <file-scope>(<unknown>)
+
+
+File square_8_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(square_8_true-unreach-call.c:29)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(square_8_true-unreach-call.c:31)
+  at <file-scope>(<unknown>)
+
+
+File square_5_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(square_5_true-unreach-call.c:29)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(square_5_true-unreach-call.c:31)
+  at <file-scope>(<unknown>)
+
+
+File sine_7_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sine_7_true-unreach-call.c:29)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sine_7_true-unreach-call.c:31)
+  at <file-scope>(<unknown>)
+
+
+File newton_2_2_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_2_2_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_2_2_true-unreach-call.c:45)
+  at <file-scope>(<unknown>)
+
+
+File newton_3_4_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_3_4_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_3_4_true-unreach-call.c:45)
+  at <file-scope>(<unknown>)
+
+
+File sine_8_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sine_8_true-unreach-call.c:29)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sine_8_true-unreach-call.c:31)
+  at <file-scope>(<unknown>)
+
+
+File newton_3_3_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_3_3_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(newton_3_3_true-unreach-call.c:45)
+  at <file-scope>(<unknown>)
+
+
+Total Executables - 23
+Undefined - 23

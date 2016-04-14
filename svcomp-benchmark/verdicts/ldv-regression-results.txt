@@ -1,0 +1,498 @@
+File just_assert.c_true-unreach-call.cil.c
+File was well defined 
+
+File structure_assignment.c_true-unreach-call.cil.c
+File was well defined 
+
+File test10_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at f(test10_true-unreach-call.c:14)
+  at main(test10_true-unreach-call.c:32)
+  at <file-scope>(<unknown>)
+
+
+File test_union_cast.c_true-unreach-call.cil.c
+Found Undefined Behavior! 
+Error: UB-EIO10
+Description: Type of lvalue not compatible with the effective type of the object being accessed.
+Type: Undefined behavior.
+See also: C11 sec. 6.5:7, J.2:1 item 37
+  at main(test_union_cast.c_true-unreach-call.cil.c:28)
+  at <file-scope>(<unknown>)
+Error: UB-EIO10
+Description: Type of lvalue not compatible with the effective type of the object being accessed.
+Type: Undefined behavior.
+See also: C11 sec. 6.5:7, J.2:1 item 37
+  at main(test_union_cast.c_true-unreach-call.cil.c:32)
+  at <file-scope>(<unknown>)
+
+
+File test_overflow.c_true-unreach-call.cil.c
+Found Undefined Behavior! 
+Error: UB-STDIO1
+Description: 'printf': Mismatch between the type expected by the conversion specifier %d and the type of the argument.
+Type: Undefined behavior.
+See also: C11 sec. 7.21.6.1:9, J.2:1 item 153
+  at printf(test_overflow.c_true-unreach-call.cil.c:55)
+  at getService(test_overflow.c_true-unreach-call.cil.c:55)
+  at main(test_overflow.c_true-unreach-call.cil.c:26)
+  at <file-scope>(<unknown>)
+Error: IMPL-CCV2
+Description: Conversion to signed integer outside the range that can be represented.
+Type: Implementation defined behavior.
+See also: C11 sec. 6.3.1.3:3, J.3.5:1 item 4
+  at main(test_overflow.c_true-unreach-call.cil.c:27)
+  at <file-scope>(<unknown>)
+
+
+File sizeofparameters_test.c_true-unreach-call.cil.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sizeofparameters_test.c_true-unreach-call.cil.c:21)
+  at <file-scope>(<unknown>)
+
+
+File test_union_cast-1_true-unreach-call.c
+File was well defined 
+
+File test14_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(test14_true-unreach-call.c:9)
+  at <file-scope>(<unknown>)
+Error: UB-CER3
+Description: Dereferencing a null pointer.
+Type: Undefined behavior.
+See also: C11 sec. 6.5.3.2:4, J.2:1 item 43
+  at main(test14_true-unreach-call.c:9)
+  at <file-scope>(<unknown>)
+
+
+File test04_true-unreach-call.c
+File was well defined 
+
+File test_union_cast-1_true-unreach-call.cil.c
+File was well defined 
+
+File test16_true-unreach-call.c
+File was well defined 
+
+File nested_structure_ptr_true-unreach-call.c
+File was well defined 
+
+File mutex_lock_int.c_true-unreach-call_1.cil.c
+File was well defined 
+
+File nested_structure_ptr.c_true-unreach-call.cil.c
+File was well defined 
+
+File test24_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(test24_true-unreach-call.c:21)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(test24_true-unreach-call.c:23)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(test24_true-unreach-call.c:24)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(test24_true-unreach-call.c:25)
+  at <file-scope>(<unknown>)
+
+
+File test_malloc-1_true-unreach-call.cil.c
+Found Undefined Behavior! 
+Error: UB-CCV7
+Description: Conversion from pointer to integer of a value possibly unrepresentable in the integer type.
+Type: Undefined behavior.
+See also: C11 sec. 6.3.2.3:6, J.2:1 item 24
+  at main(test_malloc-1_true-unreach-call.cil.c:42)
+  at <file-scope>(<unknown>)
+
+
+File volatile_alias.c_true-unreach-call_1.cil.c
+File was well defined 
+
+File ex3_forlist.c_true-unreach-call.cil.c
+Found Undefined Behavior! 
+Error: UB-TIN1
+Description: Identifier malloc declared with incompatible types in different translation units.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.7:2, J.2:1 item 15
+
+
+File nested_structure_noptr_true-unreach-call.c
+File was well defined 
+
+File test17_true-unreach-call.c
+File was well defined 
+
+File test27_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(test27_true-unreach-call.c:28)
+  at <file-scope>(<unknown>)
+
+
+File test_union_cast.c_true-unreach-call_1.cil.c
+File was well defined 
+
+File test_malloc-2_true-unreach-call.cil.c
+Found Undefined Behavior! 
+Error: UB-CCV7
+Description: Conversion from pointer to integer of a value possibly unrepresentable in the integer type.
+Type: Undefined behavior.
+See also: C11 sec. 6.3.2.3:6, J.2:1 item 24
+  at main(test_malloc-2_true-unreach-call.cil.c:32)
+  at <file-scope>(<unknown>)
+
+
+File test30_true-unreach-call.c
+File was well defined 
+
+File test22_true-unreach-call.c
+File was well defined 
+
+File test_union_cast-2_true-unreach-call.cil.c
+Found Undefined Behavior! 
+Error: UB-EIO10
+Description: Type of lvalue not compatible with the effective type of the object being accessed.
+Type: Undefined behavior.
+See also: C11 sec. 6.5:7, J.2:1 item 37
+  at main(test_union_cast-2_true-unreach-call.cil.c:32)
+  at <file-scope>(<unknown>)
+Error: UB-EIO10
+Description: Type of lvalue not compatible with the effective type of the object being accessed.
+Type: Undefined behavior.
+See also: C11 sec. 6.5:7, J.2:1 item 37
+  at main(test_union_cast-2_true-unreach-call.cil.c:37)
+  at <file-scope>(<unknown>)
+
+
+File test09_true-unreach-call.c
+File was well defined 
+
+File test18_true-unreach-call.c
+File was well defined 
+
+File nested_structure_ptr_true-unreach-call.cil.c
+Found Undefined Behavior! 
+Error: UB-CCV7
+Description: Conversion from pointer to integer of a value possibly unrepresentable in the integer type.
+Type: Undefined behavior.
+See also: C11 sec. 6.3.2.3:6, J.2:1 item 24
+  at main(nested_structure_ptr_true-unreach-call.cil.c:51)
+  at <file-scope>(<unknown>)
+
+
+File test19_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at assign(test19_true-unreach-call.c:9)
+  at main(test19_true-unreach-call.c:15)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(test19_true-unreach-call.c:16)
+  at <file-scope>(<unknown>)
+
+
+File oomInt.c_true-unreach-call_1.cil.c
+File was well defined 
+
+File test_address.c_true-unreach-call.cil.c
+Found Undefined Behavior! 
+Error: UB-CCV7
+Description: Conversion from pointer to integer of a value possibly unrepresentable in the integer type.
+Type: Undefined behavior.
+See also: C11 sec. 6.3.2.3:6, J.2:1 item 24
+  at list_add(test_address.c_true-unreach-call.cil.c:25)
+  at rr_fail_path(test_address.c_true-unreach-call.cil.c:43)
+  at main(test_address.c_true-unreach-call.cil.c:53)
+  at <file-scope>(<unknown>)
+
+
+File rule57_ebda_blast.c_true-unreach-call_1.cil.c
+Found Undefined Behavior! 
+File: rule57_ebda_blast.c_true-unreach-call_1.cil.c
+Line: 8
+Error: UB-CDT1
+Description: Structs must contain a named member.
+Type: Undefined behavior.
+See also: C11 sec. 6.7.2.1:8, J.2:1 item 61
+
+
+File test26_true-unreach-call.c
+File was well defined 
+
+File test05_true-unreach-call.c
+File was well defined 
+
+File test25_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(test25_true-unreach-call.c:26)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(test25_true-unreach-call.c:27)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(test25_true-unreach-call.c:29)
+  at <file-scope>(<unknown>)
+
+
+File test29_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(test29_true-unreach-call.c:17)
+  at <file-scope>(<unknown>)
+Error: UB-EFNC1
+Description: Attempt to call the function printf through a pointer with incompatible type.
+Type: Undefined behavior.
+See also: C11 sec. 6.5.2.2:9, J.2:1 item 41
+  at main(test29_true-unreach-call.c:24)
+  at <file-scope>(<unknown>)
+
+
+File alias_of_return_2.c_true-unreach-call_1.cil.c
+File was well defined 
+
+File test21_true-unreach-call.c
+File was well defined 
+
+File nested_structure_noptr_true-unreach-call.cil.c
+File was well defined 
+
+File test_malloc-1_true-unreach-call.c
+File was well defined 
+
+File nested_structure_true-unreach-call.cil.c
+Found Undefined Behavior! 
+Error: UB-CCV7
+Description: Conversion from pointer to integer of a value possibly unrepresentable in the integer type.
+Type: Undefined behavior.
+See also: C11 sec. 6.3.2.3:6, J.2:1 item 24
+  at main(nested_structure_true-unreach-call.cil.c:44)
+  at <file-scope>(<unknown>)
+
+
+File test_cut_trace.c_true-unreach-call.cil.c
+File was well defined 
+
+File alias_of_return.c_true-unreach-call_1.cil.c
+File was well defined 
+
+File nested_structure.c_true-unreach-call.cil.c
+File was well defined 
+
+File test28_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(test28_true-unreach-call.c:16)
+  at <file-scope>(<unknown>)
+
+
+File volatile_alias.c_true-unreach-call.cil.c
+Found Undefined Behavior! 
+Error: UB-EIO10
+Description: Type of lvalue not compatible with the effective type of the object being accessed.
+Type: Undefined behavior.
+See also: C11 sec. 6.5:7, J.2:1 item 37
+  at main(volatile_alias.c_true-unreach-call.cil.c:19)
+  at <file-scope>(<unknown>)
+Error: UB-EIO9
+Description: Trying to access an object declared with volatile type through a non-volatile lvalue.
+Type: Undefined behavior.
+See also: C11 sec. 6.7.3:6, J.2:1 item 65
+  at main(volatile_alias.c_true-unreach-call.cil.c:19)
+  at <file-scope>(<unknown>)
+
+
+File test03_true-unreach-call.c
+File was well defined 
+
+File test23_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(test23_true-unreach-call.c:27)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(test23_true-unreach-call.c:28)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(test23_true-unreach-call.c:29)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(test23_true-unreach-call.c:30)
+  at <file-scope>(<unknown>)
+
+
+File nested_structure_noptr.c_true-unreach-call.cil.c
+File was well defined 
+
+File test_union.c_true-unreach-call.cil.c
+File was well defined 
+
+File rule60_list.c_true-unreach-call.cil.c
+Found Undefined Behavior! 
+Error: UB-CCV7
+Description: Conversion from pointer to integer of a value possibly unrepresentable in the integer type.
+Type: Undefined behavior.
+See also: C11 sec. 6.3.2.3:6, J.2:1 item 24
+  at main(rule60_list.c_true-unreach-call.cil.c:74)
+  at <file-scope>(<unknown>)
+
+
+File test_union_cast-2_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-EIO10
+Description: Type of lvalue not compatible with the effective type of the object being accessed.
+Type: Undefined behavior.
+See also: C11 sec. 6.5:7, J.2:1 item 37
+  at main(test_union_cast-2_true-unreach-call.c:41)
+  at <file-scope>(<unknown>)
+Error: UB-EIO10
+Description: Type of lvalue not compatible with the effective type of the object being accessed.
+Type: Undefined behavior.
+See also: C11 sec. 6.5:7, J.2:1 item 37
+  at main(test_union_cast-2_true-unreach-call.c:42)
+  at <file-scope>(<unknown>)
+
+
+File nested_structure_true-unreach-call.c
+File was well defined 
+
+File alias_of_return.c_true-unreach-call.cil.c
+File was well defined 
+
+File test_union.c_true-unreach-call_1.cil.c
+File was well defined 
+
+File alias_of_return_2.c_true-unreach-call.cil.c
+File was well defined 
+
+File test07_true-unreach-call.c
+File was well defined 
+
+File test13_true-unreach-call.c
+File was well defined 
+
+File test20_true-unreach-call.c
+File was well defined 
+
+File test_malloc-2_true-unreach-call.c
+File was well defined 
+
+File mutex_lock_struct.c_true-unreach-call_1.cil.c
+File was well defined 
+
+File test15_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at assign(test15_true-unreach-call.c:7)
+  at main(test15_true-unreach-call.c:12)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(test15_true-unreach-call.c:13)
+  at <file-scope>(<unknown>)
+
+
+File rule60_list2.c_true-unreach-call.cil.c
+Found Undefined Behavior! 
+File: rule60_list2.c_true-unreach-call.cil.c
+Line: 31
+Error: CV-CEA7
+Description: Computing pointer addition of a pointer not to a complete object type.
+Type: Constraint violation.
+See also: C11 sec. 6.5.6:2
+
+
+File test01_true-unreach-call.c
+File was well defined 
+
+File oomInt.c_true-unreach-call.cil.c
+File was well defined 
+
+File test11_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(test11_true-unreach-call.c:9)
+  at <file-scope>(<unknown>)
+Error: UB-CER3
+Description: Dereferencing a null pointer.
+Type: Undefined behavior.
+See also: C11 sec. 6.5.3.2:4, J.2:1 item 43
+  at main(test11_true-unreach-call.c:9)
+  at <file-scope>(<unknown>)
+
+
+Total Executables - 67
+Undefined - 26

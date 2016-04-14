@@ -1,0 +1,614 @@
+File avg05_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at avg(avg05_true-unreach-call.c:24)
+  at main(avg05_true-unreach-call.c:37)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(avg05_true-unreach-call.c:39)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at avg(avg05_true-unreach-call.c:24)
+  at main(avg05_true-unreach-call.c:40)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(avg05_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+
+
+File avg_true-unreach-call.c
+File was well defined 
+
+File max40_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at max(max40_true-unreach-call.c:24)
+  at main(max40_true-unreach-call.c:37)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(max40_true-unreach-call.c:39)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at max(max40_true-unreach-call.c:24)
+  at main(max40_true-unreach-call.c:40)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(max40_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+
+
+File avg10_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at avg(avg10_true-unreach-call.c:24)
+  at main(avg10_true-unreach-call.c:37)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(avg10_true-unreach-call.c:39)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at avg(avg10_true-unreach-call.c:24)
+  at main(avg10_true-unreach-call.c:40)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(avg10_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+
+
+File sum05_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at sum(sum05_true-unreach-call.c:24)
+  at main(sum05_true-unreach-call.c:37)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sum05_true-unreach-call.c:39)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at sum(sum05_true-unreach-call.c:24)
+  at main(sum05_true-unreach-call.c:40)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sum05_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+
+
+File sum60_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at sum(sum60_true-unreach-call.c:24)
+  at main(sum60_true-unreach-call.c:37)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sum60_true-unreach-call.c:39)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at sum(sum60_true-unreach-call.c:24)
+  at main(sum60_true-unreach-call.c:40)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sum60_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+
+
+File sep40_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at sep(sep40_true-unreach-call.c:23)
+  at main(sep40_true-unreach-call.c:40)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sep40_true-unreach-call.c:42)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at sep(sep40_true-unreach-call.c:23)
+  at main(sep40_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sep40_true-unreach-call.c:46)
+  at <file-scope>(<unknown>)
+
+
+File max60_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at max(max60_true-unreach-call.c:24)
+  at main(max60_true-unreach-call.c:37)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(max60_true-unreach-call.c:39)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at max(max60_true-unreach-call.c:24)
+  at main(max60_true-unreach-call.c:40)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(max60_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+
+
+File sep10_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at sep(sep10_true-unreach-call.c:23)
+  at main(sep10_true-unreach-call.c:40)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sep10_true-unreach-call.c:42)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at sep(sep10_true-unreach-call.c:23)
+  at main(sep10_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sep10_true-unreach-call.c:46)
+  at <file-scope>(<unknown>)
+
+
+File sep60_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at sep(sep60_true-unreach-call.c:23)
+  at main(sep60_true-unreach-call.c:40)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sep60_true-unreach-call.c:42)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at sep(sep60_true-unreach-call.c:23)
+  at main(sep60_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sep60_true-unreach-call.c:46)
+  at <file-scope>(<unknown>)
+
+
+File max_true-unreach-call.c
+File was well defined 
+
+File sep05_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at sep(sep05_true-unreach-call.c:23)
+  at main(sep05_true-unreach-call.c:40)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sep05_true-unreach-call.c:42)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at sep(sep05_true-unreach-call.c:23)
+  at main(sep05_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sep05_true-unreach-call.c:46)
+  at <file-scope>(<unknown>)
+
+
+File max10_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at max(max10_true-unreach-call.c:24)
+  at main(max10_true-unreach-call.c:37)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(max10_true-unreach-call.c:39)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at max(max10_true-unreach-call.c:24)
+  at main(max10_true-unreach-call.c:40)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(max10_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+
+
+File sum20_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at sum(sum20_true-unreach-call.c:24)
+  at main(sum20_true-unreach-call.c:37)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sum20_true-unreach-call.c:39)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at sum(sum20_true-unreach-call.c:24)
+  at main(sum20_true-unreach-call.c:40)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sum20_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+
+
+File sum40_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at sum(sum40_true-unreach-call.c:24)
+  at main(sum40_true-unreach-call.c:37)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sum40_true-unreach-call.c:39)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at sum(sum40_true-unreach-call.c:24)
+  at main(sum40_true-unreach-call.c:40)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sum40_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+
+
+File max05_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at max(max05_true-unreach-call.c:24)
+  at main(max05_true-unreach-call.c:37)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(max05_true-unreach-call.c:39)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at max(max05_true-unreach-call.c:24)
+  at main(max05_true-unreach-call.c:40)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(max05_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+
+
+File sum10_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at sum(sum10_true-unreach-call.c:24)
+  at main(sum10_true-unreach-call.c:37)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sum10_true-unreach-call.c:39)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at sum(sum10_true-unreach-call.c:24)
+  at main(sum10_true-unreach-call.c:40)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sum10_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+
+
+File avg40_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at avg(avg40_true-unreach-call.c:24)
+  at main(avg40_true-unreach-call.c:37)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(avg40_true-unreach-call.c:39)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at avg(avg40_true-unreach-call.c:24)
+  at main(avg40_true-unreach-call.c:40)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(avg40_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+
+
+File avg20_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at avg(avg20_true-unreach-call.c:24)
+  at main(avg20_true-unreach-call.c:37)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(avg20_true-unreach-call.c:39)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at avg(avg20_true-unreach-call.c:24)
+  at main(avg20_true-unreach-call.c:40)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(avg20_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+
+
+File max20_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at max(max20_true-unreach-call.c:24)
+  at main(max20_true-unreach-call.c:37)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(max20_true-unreach-call.c:39)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at max(max20_true-unreach-call.c:24)
+  at main(max20_true-unreach-call.c:40)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(max20_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+
+
+File avg60_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at avg(avg60_true-unreach-call.c:24)
+  at main(avg60_true-unreach-call.c:37)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(avg60_true-unreach-call.c:39)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at avg(avg60_true-unreach-call.c:24)
+  at main(avg60_true-unreach-call.c:40)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(avg60_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+
+
+File sep20_true-unreach-call.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at sep(sep20_true-unreach-call.c:23)
+  at main(sep20_true-unreach-call.c:40)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sep20_true-unreach-call.c:42)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at sep(sep20_true-unreach-call.c:23)
+  at main(sep20_true-unreach-call.c:43)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(sep20_true-unreach-call.c:46)
+  at <file-scope>(<unknown>)
+
+
+File sum_true-unreach-call.c
+File was well defined 
+
+File sep_true-unreach-call.c
+File was well defined 
+
+Total Executables - 24
+Undefined - 20

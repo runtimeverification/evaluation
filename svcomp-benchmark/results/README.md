@@ -1,8 +1,11 @@
 Data collected from running [RV-Match](https://runtimeverification.com/match) on the [SV-COMP Benchmark Verification Tasks](https://github.com/sosy-lab/sv-benchmarks). These results were collected on April 13th, 2016. More details about the verification tasks, and the structure of the benchmarks can be found at [SV-COMP's website](http://sv-comp.sosy-lab.org/2016/index.php).
 
-### Naming Convention
+#### Naming Convention
 
 C files in The SV-COMP verification benchmarks are organized under [folders](https://github.com/sosy-lab/sv-benchmarks/tree/master/c) named after categories of verification tasks. The error reports follow the naming convention "\<folder-name\>-results.txt", where \<folder-name\> is the name of a folder in the benchmarks. For instance, the file "array-examples-results.txt" contains the results of running RV-Match on the correct examples in the ["array-examples"](https://github.com/sosy-lab/sv-benchmarks/tree/master/c/array-examples) folder.
+
+
+#### Directory Structure
 
 RV-Match was run on 1346 correct programs from the benchmark. 
 

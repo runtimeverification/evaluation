@@ -60,9 +60,9 @@ Files in the following folders had been preprocessed, and were not analyzed with
 * ldv-linux-4.2-rc1
 * ldv-challenges
 
-It must be noted here that C11 sec. 7.1.4:2 states, "Provided that a library function can be declared without reference to any type defined in a header, it is also permissible to declare the function and use it without including its associated header". Files in the above mentioned folders however declare functions that have refer to types defined in headers, without including the headers themselves. This, according to the standard is not permissible, and thus files in the above mentioned folders do not qualify as valid standalone C programs. 
+C11 sec. 7.1.4:2 states, "Provided that a library function can be declared without reference to any type defined in a header, it is also permissible to declare the function and use it without including its associated header". Programs in the above mentioned folders, however, declare functions that have refer to types defined in headers, without including the headers themselves. Thus, they may not qualify as valid standalone C programs. 
 
-Correct files in the following folders were not analyzed due to miscellaneous reasons, such as limitation of RV-Match, and syntax errors in files.
+Correct files in the following folders were not analyzed due to miscellaneous reasons, such as lack of support for alloca in RV-Match, and syntax errors.
 
 * ddv-maczwd
 * ntdrivers-simplified
@@ -77,6 +77,5 @@ Correct files in the following folders were not analyzed due to miscellaneous re
 * termination-numeric
 * pthread
 * pthread-atomic
-
 
  For more information on how the files were run with RV-Match, please see [scripts](../scripts) directory.

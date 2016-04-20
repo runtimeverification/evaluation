@@ -75,7 +75,7 @@ Correct files in the following folders were not analyzed due to miscellaneous re
 * seq-mthread
 * seq-pthread
 * termination-numeric
-* pthread
 * pthread-atomic
+* pthread
 
  For more information on how the files were run with RV-Match, please see [scripts](../scripts) directory.

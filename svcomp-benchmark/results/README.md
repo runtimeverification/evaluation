@@ -62,7 +62,7 @@ We could not use RV-Match to analyze files in the following folders, since the f
 
 C11 sec. 7.1.4:2 states, "Provided that a library function can be declared without reference to any type defined in a header, it is also permissible to declare the function and use it without including its associated header". Programs in the above mentioned folders, however, declare functions that refer to types defined in headers, without including the headers themselves. Thus, they don't qualify as C11 compliant programs. 
 
-RV-Match could not be used to analyze files in the following folders due to missing support for alloca in the tool, and syntax errors in the files.
+RV-Match could not be used to analyze files in the following folders due to missing library support in the tool, and syntax errors in files.
 
 * ddv-maczwd
 * ntdrivers-simplified

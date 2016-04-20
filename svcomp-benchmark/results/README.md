@@ -2,14 +2,14 @@ Data collected from running [RV-Match](https://runtimeverification.com/match) on
 
 #### Naming Convention
 
-C files in The SV-COMP verification benchmarks are organized under [folders](https://github.com/sosy-lab/sv-benchmarks/tree/master/c) named after categories of verification tasks. The error reports follow the naming convention "\<folder-name\>-results.txt", where \<folder-name\> is the name of a folder in the benchmarks. For instance, the file "array-examples-results.txt" contains the results of running RV-Match on the correct examples in the ["array-examples"](https://github.com/sosy-lab/sv-benchmarks/tree/master/c/array-examples) folder.
+C files in the SV-COMP benchmarks are organized under [folders](https://github.com/sosy-lab/sv-benchmarks/tree/master/c) named after categories of verification tasks. The error reports follow the naming convention "\<folder-name\>-results.txt", where \<folder-name\> is the name of a folder in the benchmarks. For instance, the file "array-examples-results.txt" contains the results of running RV-Match on the correct examples in the ["array-examples"](https://github.com/sosy-lab/sv-benchmarks/tree/master/c/array-examples) folder.
 
 
 #### Directory Structure
 
 RV-Match was run on 1346 correct programs from the benchmark. 
 
-Correct files in the following folders were analyzed RV-Match -
+We used RV-Match to analyze correct files in the following folders -
 
 * array-examples
 * reducercommutativity
@@ -46,7 +46,7 @@ Correct files in the following folders were analyzed RV-Match -
 * ldv-races
 
 
-Files in the following folders had been preprocessed, and were not analyzed with RV-Match. 
+We could not use RV-Match to analyze files in the following folders, since the files had already been preprocessed.
 
 * ldv-linux-3.0
 * ldv-linux-3.4-simple
@@ -60,9 +60,9 @@ Files in the following folders had been preprocessed, and were not analyzed with
 * ldv-linux-4.2-rc1
 * ldv-challenges
 
-C11 sec. 7.1.4:2 states, "Provided that a library function can be declared without reference to any type defined in a header, it is also permissible to declare the function and use it without including its associated header". Programs in the above mentioned folders, however, declare functions that have refer to types defined in headers, without including the headers themselves. Thus, they may not qualify as valid standalone C programs. 
+C11 sec. 7.1.4:2 states, "Provided that a library function can be declared without reference to any type defined in a header, it is also permissible to declare the function and use it without including its associated header". Programs in the above mentioned folders, however, declare functions that refer to types defined in headers, without including the headers themselves. Thus, they don't qualify as C11 compliant programs. 
 
-Correct files in the following folders were not analyzed due to miscellaneous reasons, such as lack of support for alloca in RV-Match, and syntax errors.
+RV-Match could not be used to analyze files in the following folders due to missing support for alloca in the tool, and syntax errors in the files.
 
 * ddv-maczwd
 * ntdrivers-simplified
@@ -78,4 +78,4 @@ Correct files in the following folders were not analyzed due to miscellaneous re
 * pthread-atomic
 * pthread
 
- For more information on how the files were run with RV-Match, please see [scripts](../scripts) directory.
+For more information on how the files were run with RV-Match, please see [scripts](../scripts) directory.

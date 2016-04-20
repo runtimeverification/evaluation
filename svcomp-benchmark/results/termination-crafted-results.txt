@@ -1,0 +1,224 @@
+File easy1_true-termination.c
+File was well defined 
+
+File Toulouse-BranchesToLoop_true-termination.c
+File was well defined 
+
+File 4BitCounterPointer_true-termination.c
+Found Undefined Behavior! 
+Error: UB-TDR2
+Description: No definition for symbol with external linkage: alloca.
+Type: Undefined behavior.
+See also: C11 sec. 6.9:5, J.2:1 item 84
+Translation failed (config dumped). Run kcc -d 4BitCounterPointer_true-termination.o /home/manasvisaxena/sv-benchmarks/c/implementations.o -o 4BitCounterPointer_true-termination.out to see commands run.
+
+
+File RecursiveMultiplication_true-termination.c
+File was well defined 
+
+File SyntaxSupportPointer01_true-termination.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(SyntaxSupportPointer01_true-termination.c:12)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(SyntaxSupportPointer01_true-termination.c:13)
+  at <file-scope>(<unknown>)
+
+
+File Copenhagen_disj_true-termination.c
+File was well defined 
+
+File Lobnya-Boolean-Reordered_true-termination.c
+File was well defined 
+
+File Copenhagen_true-termination.c
+File was well defined 
+
+File McCarthy91_Recursion_true-termination.c
+File was well defined 
+
+File NestedRecursion_1d_true-termination.c
+File was well defined 
+
+File NestedRecursion_2c_true-termination.c
+File was well defined 
+
+File Gothenburg_v2_true-termination.c
+File was well defined 
+
+File Bangalore_v4_true-termination.c
+File was well defined 
+
+File easy2_true-termination.c
+File was well defined 
+
+File Toulouse-MultiBranchesToLoop_true-termination.c
+File was well defined 
+
+File NestedRecursion_1c_true-termination.c
+File was well defined 
+
+File Pure2Phase_true-termination.c
+File was well defined 
+
+File Piecewise_true-termination.c
+File was well defined 
+
+File aaron2_true-termination.c
+File was well defined 
+
+File Cairo_true-termination.c
+File was well defined 
+
+File Arrays03-ValueRestictsIndex_true-termination.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(Arrays03-ValueRestictsIndex_true-termination.c:15)
+  at <file-scope>(<unknown>)
+
+
+File Gothenburg_true-termination.c
+File was well defined 
+
+File Stockholm_true-termination.c
+File was well defined 
+
+File NestedRecursion_1b_true-termination.c
+File was well defined 
+
+File Singapore_true-termination.c
+File was well defined 
+
+File LexIndexValue-Pointer_true-termination.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(LexIndexValue-Pointer_true-termination.c:15)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(LexIndexValue-Pointer_true-termination.c:19)
+  at <file-scope>(<unknown>)
+
+
+File TelAviv-Amir-Minimum_true-termination.c
+File was well defined 
+
+File McCarthy91_Iteration_true-termination.c
+File was well defined 
+
+File 2Nested_true-termination.c
+File was well defined 
+
+File Bangalore_true-termination.c
+File was well defined 
+
+File 4NestedWith3Variables_true-termination.c
+File was well defined 
+
+File MenloPark_true-termination.c
+File was well defined 
+
+File Parallel_true-termination.c
+File was well defined 
+
+File Mysore_true-termination.c
+File was well defined 
+
+File LexIndexValue-Array_true-termination.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(LexIndexValue-Array_true-termination.c:15)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(LexIndexValue-Array_true-termination.c:19)
+  at <file-scope>(<unknown>)
+
+
+File Pure3Phase_true-termination.c
+File was well defined 
+
+File aaron3_true-termination.c
+File was well defined 
+
+File Benghazi_true-termination.c
+File was well defined 
+
+File Waldkirch_true-termination.c
+File was well defined 
+
+File WhileFalse_true-termination.c
+File was well defined 
+
+File Arrays01-EquivalentConstantIndices_true-termination.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(Arrays01-EquivalentConstantIndices_true-termination.c:12)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(Arrays01-EquivalentConstantIndices_true-termination.c:13)
+  at <file-scope>(<unknown>)
+
+
+File MutualRecursion_1b_true-termination.c
+File was well defined 
+
+File Ackermann_true-termination.c
+File was well defined 
+
+File Nyala-2lex_true-termination.c
+Found Undefined Behavior! 
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(Nyala-2lex_true-termination.c:17)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(Nyala-2lex_true-termination.c:18)
+  at <file-scope>(<unknown>)
+Error: UB-CEE2
+Description: Indeterminate value used in an expression.
+Type: Undefined behavior.
+See also: C11 sec. 6.2.4, 6.7.9, 6.8, J.2:1 item 11
+  at main(Nyala-2lex_true-termination.c:20)
+  at <file-scope>(<unknown>)
+
+
+File Benghazi_nondet_true-termination.c
+File was well defined 
+
+File Thun_true-termination.c
+File was well defined 
+
+Total Executables - 46
+Undefined - 7

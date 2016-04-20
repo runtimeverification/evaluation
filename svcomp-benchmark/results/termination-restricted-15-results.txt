@@ -1,0 +1,263 @@
+File b.14_true-termination.c
+File was well defined 
+
+File PastaB7_true-termination.c
+File was well defined 
+
+File b.01_true-termination.c
+File was well defined 
+
+File PastaB16_true-termination.c
+File was well defined 
+
+File PastaB11_true-termination.c
+File was well defined 
+
+File ex2_true-termination.c
+File was well defined 
+
+File a.04_true-termination.c
+File was well defined 
+
+File ex1_true-termination.c
+File was well defined 
+
+File flag_true-termination.c
+File was well defined 
+
+File PastaA4_true-termination.c
+File was well defined 
+
+File b.05_true-termination.c
+File was well defined 
+
+File PastaB2_true-termination.c
+File was well defined 
+
+File c.03_true-termination.c
+File was well defined 
+
+File b.07_true-termination.c
+File was well defined 
+
+File PastaC1_true-termination.c
+File was well defined 
+
+File Nested_true-termination.c
+File was well defined 
+
+File b.10_true-termination.c
+File was well defined 
+
+File java_Sequence_true-termination.c
+File was well defined 
+
+File a.01_true-termination.c
+File was well defined 
+
+File fermat_true-termination.c
+File was well defined 
+
+File a.10_true-termination.c
+File was well defined 
+
+File a.05_true-termination.c
+File was well defined 
+
+File b.12_true-termination.c
+File was well defined 
+
+File Log_true-termination.c
+File was well defined 
+
+File WhileDecr_true-termination.c
+File was well defined 
+
+File b.15_true-termination.c
+File was well defined 
+
+File java_AG313_true-termination.c
+File was well defined 
+
+File ex3b_true-termination.c
+File was well defined 
+
+File b.03-no-inv_assume_true-termination.c
+File was well defined 
+
+File b.18_true-termination.c
+File was well defined 
+
+File ex3a_true-termination.c
+File was well defined 
+
+File PastaC9_true-termination.c
+File was well defined 
+
+File b.17_true-termination.c
+File was well defined 
+
+File PastaA10_true-termination.c
+File was well defined 
+
+File a.07_true-termination.c
+File was well defined 
+
+File PastaB3_true-termination.c
+File was well defined 
+
+File b.06_true-termination.c
+File was well defined 
+
+File PlusSwap_true-termination.c
+File was well defined 
+
+File PastaB17_true-termination.c
+File was well defined 
+
+File b.09-no-inv_assume_true-termination.c
+File was well defined 
+
+File PastaB4_true-termination.c
+File was well defined 
+
+File c.02_true-termination.c
+File was well defined 
+
+File DivMinus2_true-termination.c
+File was well defined 
+
+File java_Nested_true-termination.c
+File was well defined 
+
+File IntPath_true-termination.c
+File was well defined 
+
+File b.04_true-termination.c
+File was well defined 
+
+File PastaC2_true-termination.c
+File was well defined 
+
+File java_Break_true-termination.c
+File was well defined 
+
+File Overflow_true-termination.c
+File was well defined 
+
+File c.01_assume_true-termination.c
+File was well defined 
+
+File MinusUserDefined_true-termination.c
+File was well defined 
+
+File Sequence_true-termination.c
+File was well defined 
+
+File b.13_true-termination.c
+File was well defined 
+
+File c.01-no-inv_true-termination.c
+File was well defined 
+
+File b.02_true-termination.c
+File was well defined 
+
+File a.06_true-termination.c
+File was well defined 
+
+File PastaB14_true-termination.c
+File was well defined 
+
+File PastaA9_true-termination.c
+File was well defined 
+
+File PastaC7_true-termination.c
+File was well defined 
+
+File PastaB1_true-termination.c
+File was well defined 
+
+File Et1_true-termination.c
+File was well defined 
+
+File PastaA6_true-termination.c
+File was well defined 
+
+File easySum_true-termination.c
+File was well defined 
+
+File MinusBuiltIn_true-termination.c
+File was well defined 
+
+File DivMinus_true-termination.c
+File was well defined 
+
+File a.08_true-termination.c
+File was well defined 
+
+File b.03_assume_true-termination.c
+File was well defined 
+
+File c.08_true-termination.c
+File was well defined 
+
+File PastaA8_true-termination.c
+File was well defined 
+
+File java_Continue1_true-termination.c
+File was well defined 
+
+File a.09_assume_true-termination.c
+File was well defined 
+
+File LogMult_true-termination.c
+File was well defined 
+
+File b.16_true-termination.c
+File was well defined 
+
+File GCD4_true-termination.c
+File was well defined 
+
+File PastaB6_true-termination.c
+File was well defined 
+
+File PastaA7_true-termination.c
+File was well defined 
+
+File PastaB15_true-termination.c
+File was well defined 
+
+File c.07_true-termination.c
+File was well defined 
+
+File PastaC3_true-termination.c
+File was well defined 
+
+File b.11_true-termination.c
+File was well defined 
+
+File MinusMin_true-termination.c
+File was well defined 
+
+File PastaA5_true-termination.c
+File was well defined 
+
+File GCD3_true-termination.c
+File was well defined 
+
+File McCarthyIterative_true-termination.c
+File was well defined 
+
+File b.09_assume_true-termination.c
+File was well defined 
+
+File LogAG_true-termination.c
+File was well defined 
+
+File PastaA1_true-termination.c
+File was well defined 
+
+Total Executables - 87
+Undefined - 0

@@ -1,6 +1,6 @@
 #### Requirements
 * python-2.7
-* (RV-Match)[https://runtimeverification.com/match/)
+* (RV-Match)[https://runtimeverification.com/match/]
 
 #### Running the Scripts
 

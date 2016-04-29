@@ -6,7 +6,7 @@
 1. Install Python Dependencies
 	* `pip install subprocess32`
 	* `pip install pyyaml`
-        *  `pip install tabulate`
+	* `pip install tabulate`
 
 2. Create a Yaml config file following the format:
 	```
